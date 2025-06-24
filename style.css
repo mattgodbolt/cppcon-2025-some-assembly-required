@@ -1,0 +1,71 @@
+.hidden {
+  display: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.reveal ul {
+  list-style-type: square;
+}
+
+.reveal pre code {
+  padding: 10px;
+  max-height: 530px;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.attribution {
+  font-size: 60%;
+  font-style: italic;
+  background: #eee;
+}
+
+table.borders td,
+table.borders th {
+  border: 2px solid black !important;
+}
+
+.no-border {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+div.attribution {
+  font-style: italic;
+  font-size: 40%;
+}
+
+.note {
+  font-style: italic;
+  font-size: 80%;
+}
+
+div.footer {
+  font-family: initial;
+  z-index: 1;
+  font-size: 16px;
+  font-style: italic;
+  position: absolute;
+  bottom: 1em;
+  text-align: center;
+  background: #ddd;
+  box-shadow: 5px 5px #888;
+  border-radius: 5px;
+  padding: 10px !important;
+}
