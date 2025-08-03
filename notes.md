@@ -8,6 +8,32 @@ From documentation to testing, from build systems to package managers, we'll exa
 
 ---
 
+Dump of new ideas in no particular order
+- C++ has always been "some assembly required"
+  - No batteries included - don't pay for what you don't use
+- Roguewave and others contributing to STL
+- IKEA furniture "assembly" instructions
+  - onboarding new people
+  - how to "assemble" (compile) the software for a project
+  - led to sort of standardization of builds (ish), CMake. make, ninja, meson (to be researched), SCons etc etc
+- easy to "assemble" -> easy for new folks to contribute
+  - open source model !
+  - but works in closed source too
+  - AND makes project AI-able
+    - Segue to interlude on CE's use of AI?
+    - also linters, pre-commit hooks, etc
+      - good for AI too
+      - "local changes should have local impact" -> also good for humans
+- Examples of things that got standardized
+  - STL itself
+  - boost -> shared pointers (research more and others)
+  - fmt -> libfmt
+  - Howard Hinnant's date library
+  - TODO find more here
+- Need strong call to action
+
+---
+
 ## Core Narrative Arc
 
 - Bait and switch on "assembly" - they expect machine code, get ecosystem assembly (though the abstract gives it away)
