@@ -9,6 +9,7 @@ From documentation to testing, from build systems to package managers, we'll exa
 ---
 
 Dump of new ideas in no particular order
+
 - C++ has always been "some assembly required"
   - No batteries included - don't pay for what you don't use
 - Roguewave and others contributing to STL
@@ -16,6 +17,14 @@ Dump of new ideas in no particular order
   - onboarding new people
   - how to "assemble" (compile) the software for a project
   - led to sort of standardization of builds (ish), CMake. make, ninja, meson (to be researched), SCons etc etc
+- Different types of assembly:
+  - IKEA (documentation)
+  - Welsh (standard committee, big companies)
+  - School (informal meetups?
+  - Code :)
+- My story?
+  - Assembly?
+- C++ needs all of these
 - easy to "assemble" -> easy for new folks to contribute
   - open source model !
   - but works in closed source too
@@ -31,6 +40,8 @@ Dump of new ideas in no particular order
   - Howard Hinnant's date library
   - TODO find more here
 - Need strong call to action
+- People having issues with C++: https://www.reddit.com/r/cpp/s/0SkkqBfUGd
+- AI -> Trusting in tech too much. Show my car disaster
 
 ---
 

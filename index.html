@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <meta charset="utf-8" />
@@ -27,9 +27,7 @@
         ></section>
         <section>
           <div>
-            <h3>
-              TODO
-            </h3>
+            <h3>TODO</h3>
             <h5>
               Matt Godbolt <br />
               <svg
@@ -93,10 +91,11 @@
           .getElementById("footer")
           .classList.toggle(
             "hidden",
-            event.currentSlide.classList.contains("hide-footer")
+            event.currentSlide.classList.contains("hide-footer"),
           );
       };
-      Reveal.on("ready", hideyMcHideFace);        console.log(event.currentSlide.classList);
+      Reveal.on("ready", hideyMcHideFace);
+      console.log(event.currentSlide.classList);
 
       Reveal.on("slidechanged", hideyMcHideFace);
     </script>

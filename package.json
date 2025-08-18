@@ -3,9 +3,11 @@
   "scripts": {
     "start": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "format": "prettier --write ."
   },
   "dependencies": {
+    "prettier": "^3.6.2",
     "vite": "^6.3.5"
   }
 }
