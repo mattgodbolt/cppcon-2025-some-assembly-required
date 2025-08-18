@@ -43,6 +43,54 @@ Dump of new ideas in no particular order
 - People having issues with C++: https://www.reddit.com/r/cpp/s/0SkkqBfUGd
 - AI -> Trusting in tech too much. Show my car disaster
 
+- Bjarne! Linchpin that holds together?
+- ranges boost beman fmt
+- `#embed` when things go wrong?
+- reflection!!!
+- (pattern matching?)
+- io / senders receivers? don't know much about them
+
+More notes:
+- Concentrate on some key folks?
+  - Bjarne
+  - Stepanov (& Meng Lee check sp)
+  - Beman Dawes
+  - Dave Abraham
+  - Peter Dimov
+  - Anthony Williams
+  - Howard Hinnant
+  - Victor Z
+  - Eric Niebler
+  - Barry Revzin
+  - Herb
+  - MANY MANY MORE might be a boondoggle to mention too many
+
+- other connections:
+  - reflection
+  - ranges
+  - tooling, libclang
+    - LLVM foundation/ clang
+  - pattern matching
+  - "flux" ? tristan brindle
+
+Assembling it means: Knowing how stuff _really_ works
+
+Ecosystem: maybe downplay rainforest thing?
+
+abstract says:
+- documentation
+- testing (googltest, doctest, Catch, Catch2, Catch22 coming soon?)
+- package managers?
+  - conan
+  - vcpkg
+  - but also CMake and CPM directly
+
+
+---
+
+
+
+
 ---
 
 ## Core Narrative Arc
