@@ -46,9 +46,12 @@ Dump of new ideas in no particular order
 - Bjarne! Linchpin that holds together?
 - ranges boost beman fmt
 - `#embed` when things go wrong?
+- concepts
 - reflection!!!
 - (pattern matching?)
 - io / senders receivers? don't know much about them
+- CONFERENCES! :D
+- Sanitizers
 
 More notes:
 - Concentrate on some key folks?
@@ -85,13 +88,69 @@ abstract says:
   - vcpkg
   - but also CMake and CPM directly
 
+WHAT DO I WANT TO ACHIEVE?!
+
+- make people appreciate what we have, and how we got here
+  - incorporate as much as possible from other talks
+  - Likely to be a lot of reflection, and maybe AI
+- make people think about the future
+  - Danger of trusting AI/technology - car story? :)
+- make people consider their part in the future of C++
+
 
 ---
 
 
-
+### intro
+- INTRO my journey
+  - Assembly always important to me
+  - How I came to be a C++ programmer
+  - asm -> C -> C++
+  - But still assembly at heart
+- BUT WHY IS ASSEMBLY STILL SO IMPORTANT IN C++?
+- What _is_ assembly?
+  - show some asm
+  - wiktionary (7 defs)
+    - A set of pieces that work together in unison as a mechanism or device. 
+    - the act of assembly (some instructions)
+    - Congregation of people
+    - A legislative body
+    - Military drum beat
+    - "Ellipsis of assembly language."
+    - .NET
+### MEAT
+- "Ellipsis of assembly language."
+  - actual assembly
+  - why I think it's important to know
+  - CE link here?
+  - demo new feature ?
+  - CAR STORY
+- But what about the other definitions?
+- "A set of pieces" - library
+  - talk about boost, beman
+  - other libraries
+  - important part of C++!
+- "Act of assembly" -> IKEA
+  - documentation, on roads/ramps
+  - tooling? cmake/make/ninja/build
+  - sanitizers?
+- "Congration of people"
+  - PHOTO OF THEM cute trick but stressful :)
+  - Conferences!
+  - Meetups, support your local meetup
+  - Online: slack, discord, etc
+-  "Legislative body"
+  - Standards committee
+  - process!
+  - reflection! etc
+- "Military drum beat" - maybe not?
+- .NET ditto
+### Conclusion and call to action
+- TBD
 
 ---
+
+# OLD IDEA!
 
 ## Core Narrative Arc
 
