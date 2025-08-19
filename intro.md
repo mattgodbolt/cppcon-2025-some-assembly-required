@@ -1,5 +1,32 @@
-## I am an intro slide
+## photo of me age 8
 
 ---
 
-## I am another slide
+
+## spectrum 48k
+
+---
+
+## bbc micro
+
+---
+
+## magazine, typing in assembly?
+
+---
+
+## assembly
+
+---
+
+## Uni days: asm doesn't scale
+
+Mud
+
+---
+
+## C++ and games
+
+---
+
+## but assembly is still important! -> CE

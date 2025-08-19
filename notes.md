@@ -6,6 +6,9 @@ Join Matt in exploring how the C++ ecosystem has evolved through the interplay o
 
 From documentation to testing, from build systems to package managers, we'll examine how the C++ community has assembled itself around shared pain points and accidental standards. Using examples and perhaps too many rainforest metaphors, this talk celebrates not just the language we've built, but the organic ecosystem that's grown up around it. Come discover why C++'s greatest strength might be that it's always required some assembly.
 
+
+*** IF I TAKE OUT RAINFOREST METAPHORS UPDATE THE ABSTRACT ***
+
 ---
 
 Dump of new ideas in no particular order
