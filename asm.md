@@ -1,17 +1,20 @@
 ## What is Assembly?
 
-1. A set of pieces that work together.
-2. The act or process of putting together a set of pieces.
-3. A congregation of people in one place for a purpose.
-4. (politics) A legislative body.
-5. (military) A drum beat signal to troops to assemble.
-6. (computing) Ellipsis of assembly language.
+<ol>
+<li>A set of pieces that work together.</li>
+<li>The act or process of putting together a set of pieces.</li>
+<li>A congregation of people in one place for a purpose.</li>
+<li>>(politics) A legislative body.</li>
+<li>(military) A drum beat signal for troops to assemble.</li>
+<li class="fragment highlight-red">(computing) Ellipsis of assembly language.</li>
+</ol>
 
 Thanks [wiktionary](https://en.wiktionary.org/wiki/assembly).
 
 <!-- .element: class="attribution" -->
 
 Notes:
+
 - need to highlight 6 appropriately
 
 ---
@@ -26,9 +29,39 @@ c3            ret
 ```
 
 Notes:
+
 - nice to highlight better
 
+---
+
+```
+ret
+inc ax
+add rcx, rdx
+imul rax, rbx, rdx
+```
+
+---
+
+Maybe registers, addressing modes?
 
 ---
 
 ## MAYBE THAT'S IT?
+
+---
+
+## What is Assembly?
+
+<ol>
+<li>A set of pieces that work together.</li>
+<li>The act or process of putting together a set of pieces.</li>
+<li>A congregation of people in one place for a purpose.</li>
+<li>>(politics) A legislative body.</li>
+<li>(military) A drum beat signal for troops to assemble.</li>
+<li>(computing) Ellipsis of assembly language.</li>
+</ol>
+
+Thanks [wiktionary](https://en.wiktionary.org/wiki/assembly).
+
+<!-- .element: class="attribution" -->

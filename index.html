@@ -25,6 +25,7 @@
           data-background-gradient=""
           data-background="images/title.png"
         ></section>
+        <!--
         <section>
           <div>
             <h2>C++:</h2>
@@ -49,6 +50,7 @@
             </h5>
           </div>
         </section>
+        -->
         <section
           data-markdown="intro.md"
           data-separator="^-----"
@@ -57,6 +59,36 @@
         ></section>
         <section
           data-markdown="asm.md"
+          data-separator="^-----"
+          data-separator-vertical="^---"
+          data-separator-notes="^Notes:"
+        ></section>
+        <section
+          data-markdown="libraries.md"
+          data-separator="^-----"
+          data-separator-vertical="^---"
+          data-separator-notes="^Notes:"
+        ></section>
+        <section
+          data-markdown="process.md"
+          data-separator="^-----"
+          data-separator-vertical="^---"
+          data-separator-notes="^Notes:"
+        ></section>
+        <section
+          data-markdown="congregation.md"
+          data-separator="^-----"
+          data-separator-vertical="^---"
+          data-separator-notes="^Notes:"
+        ></section>
+        <section
+          data-markdown="committee.md"
+          data-separator="^-----"
+          data-separator-vertical="^---"
+          data-separator-notes="^Notes:"
+        ></section>
+        <section
+          data-markdown="conclusion.md"
           data-separator="^-----"
           data-separator-vertical="^---"
           data-separator-notes="^Notes:"
@@ -82,6 +114,7 @@
         slideNumber: true,
         width: 1280,
         height: 720,
+        transition: "none",
         markdown: {
           smartypants: true,
         },
@@ -103,7 +136,6 @@
           );
       };
       Reveal.on("ready", hideyMcHideFace);
-      console.log(event.currentSlide.classList);
 
       Reveal.on("slidechanged", hideyMcHideFace);
     </script>
