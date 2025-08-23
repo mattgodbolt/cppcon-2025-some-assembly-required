@@ -1,12 +1,16 @@
 ## What is Assembly?
 
+---
+
+### What is Assembly?
+
 <ol>
-<li>A set of pieces that work together.</li>
-<li>The act or process of putting together a set of pieces.</li>
-<li>A congregation of people in one place for a purpose.</li>
-<li>>(politics) A legislative body.</li>
-<li>(military) A drum beat signal for troops to assemble.</li>
-<li class="fragment highlight-red">(computing) Ellipsis of assembly language.</li>
+<li class=fragment>A set of pieces that work together</li>
+<li class=fragment>The act or process of putting together a set of pieces</li>
+<li class=fragment>A congregation of people in one place for a purpose</li>
+<li class=fragment><em>(politics)</em> A legislative body</li>
+<li class=fragment><em>(military)</em> A drum beat signal for troops to assemble</li>
+<li class="fragment"><em>(computing)</em> <b>Ellipsis of assembly language</b></li>
 </ol>
 
 Thanks [wiktionary](https://en.wiktionary.org/wiki/assembly).
@@ -20,6 +24,9 @@ Notes:
 ---
 
 ## Assembly Language
+
+black speech
+shakespearean poetry
 
 ```x86
             square:
@@ -47,19 +54,23 @@ Maybe registers, addressing modes?
 
 ---
 
-## MAYBE THAT'S IT?
+## Thanks!
+
+Oh wait, is that the time?
+
+<!-- .element class="fragment" -->
 
 ---
 
 ## What is Assembly?
 
 <ol>
-<li>A set of pieces that work together.</li>
-<li>The act or process of putting together a set of pieces.</li>
-<li>A congregation of people in one place for a purpose.</li>
-<li>>(politics) A legislative body.</li>
-<li>(military) A drum beat signal for troops to assemble.</li>
-<li>(computing) Ellipsis of assembly language.</li>
+<li>A set of pieces that work together</li>
+<li>The act or process of putting together a set of pieces</li>
+<li>A congregation of people in one place for a purpose</li>
+<li><em>(politics)</em> A legislative body</li>
+<li><em>(military)</em> A drum beat signal for troops to assemble</li>
+<li><em>(computing)</em> Ellipsis of assembly language</li>
 </ol>
 
 Thanks [wiktionary](https://en.wiktionary.org/wiki/assembly).

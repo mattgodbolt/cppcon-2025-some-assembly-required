@@ -1,4 +1,9 @@
-<h2 class=r-fit-text>A drum beat signal<br>for troops to assemble</h2>
+<h2 class=r-fit-text data-id=title>A drum beat signal<br>for <span data-id=name>troops</span> to assemble</h2>
+
+<!-- .element: class="r-fit-text" -->
+
+---
+<h2 class=r-fit-text data-id=title>A drum beat signal<br>for <b data-id=name>C++ coders</b> to assemble</h2>
 
 <!-- .element: class="r-fit-text" -->
 

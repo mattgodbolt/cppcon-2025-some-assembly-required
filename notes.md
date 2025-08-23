@@ -103,6 +103,21 @@ WHAT DO I WANT TO ACHIEVE?!
 
 ---
 
+Time sketch as of Aug 23rd
+- 10m intro?
+- 10m assembly the real thing?
+  - THIS COULD SCALE UP/DOWN
+  - "oh no we ran out of content", go back to the list
+- 15m set of pieces
+- 15m process of putting together
+- 10m congregation
+- 10m legislative body
+- 5m Signal for troops to assemble
+  - play down miltary
+
+total = 75m, ABOUT right
+---
+
 
 ### intro
 - INTRO my journey
