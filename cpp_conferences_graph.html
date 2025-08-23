@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C++ Conferences Over Time</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 1000px;
+            width: 100%;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+        .chart-container {
+            position: relative;
+            height: 500px;
+            margin-bottom: 30px;
+        }
+        .legend {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            color: #555;
+        }
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 4px;
+        }
+        .note {
+            background: #f0f0f0;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 5px;
+            font-size: 13px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📈 C++ Conferences Growth (2014-2025)</h1>
+        <div class="subtitle">Number of Major C++ Conferences Worldwide</div>
+        
+        <div class="chart-container">
+            <canvas id="conferenceChart"></canvas>
+        </div>
+        
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-color" style="background: #667eea;"></div>
+                <span>Pre-Pandemic Growth</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #ff6b6b;"></div>
+                <span>Pandemic Impact</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #4ecdc4;"></div>
+                <span>Recovery & Growth</span>
+            </div>
+        </div>
+        
+        <div class="note">
+            <strong>Note:</strong> The graph shows estimated counts of major international C++ conferences. 
+            2020-2021 saw a dip due to COVID-19, with many conferences going virtual or being cancelled. 
+            2025 data includes confirmed conferences (10+) based on actual attendance and scheduled events.
+        </div>
+        
+        <div class="note" style="margin-top: 15px;">
+            <strong>Data Sources:</strong>
+            <ul style="margin: 10px 0 0 0; padding-left: 20px; line-height: 1.6;">
+                <li><a href="https://isocpp.org/wiki/faq/conferences-worldwide" style="color: #667eea;">isocpp.org - Conferences Worldwide</a> - Official ISO C++ conference listings</li>
+                <li><a href="https://cppcon.org/" style="color: #667eea;">CppCon.org</a> - Archives and timelines (2014-2025)</li>
+                <li><a href="https://meetingcpp.com/" style="color: #667eea;">Meeting C++</a> - Conference history and schedules</li>
+                <li><a href="https://cppnow.org/" style="color: #667eea;">C++Now</a> - Conference information</li>
+                <li>Standard C++ Foundation Annual Reports (FY2022, FY2023, FY2024)</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        const ctx = document.getElementById('conferenceChart').getContext('2d');
+        
+        // Data based on our discussion
+        const data = {
+            labels: ['2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025'],
+            datasets: [{
+                label: 'Number of Major C++ Conferences',
+                data: [4, 5, 6, 7, 8, 9, 6, 6, 8, 9, 10, 11],
+                borderColor: '#667eea',
+                backgroundColor: 'rgba(102, 126, 234, 0.1)',
+                borderWidth: 3,
+                fill: true,
+                tension: 0.4,
+                pointRadius: 6,
+                pointHoverRadius: 8,
+                pointBackgroundColor: function(context) {
+                    const index = context.dataIndex;
+                    if (index >= 6 && index <= 7) return '#ff6b6b'; // Pandemic years
+                    if (index >= 8) return '#4ecdc4'; // Recovery years
+                    return '#667eea'; // Normal years
+                },
+                pointBorderColor: '#fff',
+                pointBorderWidth: 2
+            }]
+        };
+
+        const config = {
+            type: 'line',
+            data: data,
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: false
+                    },
+                    tooltip: {
+                        backgroundColor: 'rgba(0, 0, 0, 0.8)',
+                        padding: 12,
+                        cornerRadius: 8,
+                        titleFont: {
+                            size: 14,
+                            weight: 'bold'
+                        },
+                        bodyFont: {
+                            size: 13
+                        },
+                        callbacks: {
+                            afterLabel: function(context) {
+                                const year = context.label;
+                                const notes = {
+                                    '2014': 'CppCon launches',
+                                    '2019': 'Peak pre-pandemic',
+                                    '2020': 'COVID-19 impact',
+                                    '2021': 'Hybrid formats emerge',
+                                    '2022': 'Return to in-person',
+                                    '2025': 'Strong recovery'
+                                };
+                                return notes[year] || '';
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 12,
+                        ticks: {
+                            stepSize: 1,
+                            font: {
+                                size: 12
+                            }
+                        },
+                        grid: {
+                            color: 'rgba(0, 0, 0, 0.05)'
+                        },
+                        title: {
+                            display: true,
+                            text: 'Number of Conferences',
+                            font: {
+                                size: 14,
+                                weight: 'bold'
+                            }
+                        }
+                    },
+                    x: {
+                        ticks: {
+                            font: {
+                                size: 12
+                            }
+                        },
+                        grid: {
+                            color: 'rgba(0, 0, 0, 0.05)'
+                        },
+                        title: {
+                            display: true,
+                            text: 'Year',
+                            font: {
+                                size: 14,
+                                weight: 'bold'
+                            }
+                        }
+                    }
+                },
+                interaction: {
+                    intersect: false,
+                    mode: 'index'
+                },
+                animation: {
+                    duration: 2000,
+                    easing: 'easeInOutQuart'
+                }
+            }
+        };
+
+        // Create the chart
+        const myChart = new Chart(ctx, config);
+        
+        // Add annotation for pandemic period
+        setTimeout(() => {
+            // Highlight pandemic period with a subtle overlay
+            const chart = myChart;
+            const xScale = chart.scales.x;
+            const yScale = chart.scales.y;
+            const ctx = chart.ctx;
+            
+            chart.config.options.plugins.annotation = {
+                annotations: {
+                    box1: {
+                        type: 'box',
+                        xMin: '2020',
+                        xMax: '2021',
+                        backgroundColor: 'rgba(255, 107, 107, 0.1)',
+                        borderWidth: 0
+                    }
+                }
+            };
+        }, 100);
+    </script>
+</body>
+</html>

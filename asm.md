@@ -54,6 +54,10 @@ Maybe registers, addressing modes?
 
 ---
 
+## CLAUDE EXPLAIN REVEAL
+
+---
+
 ## Thanks!
 
 Oh wait, is that the time?

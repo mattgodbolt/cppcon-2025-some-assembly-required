@@ -9,6 +9,10 @@
 
 ---
 
+Amazing community to be part of, blessed to have lucked into it and CE etc
+
+---
+
 CALL TO ACTION! this is your language, you can make it what you want
 
 - on ramps for new people for your codebase
