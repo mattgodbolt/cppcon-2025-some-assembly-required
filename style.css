@@ -69,3 +69,44 @@ div.footer {
   border-radius: 5px;
   padding: 10px !important;
 }
+
+div.boosties {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-family: "Courier New", Courier, monospace;
+}
+
+div.boosties div {
+  padding: 0.4em;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  margin: 0.4em 1.5em;
+}
+
+div.boosties div.cpp11 {
+  background: linear-gradient(to bottom, #f0f0f0, #ccc);
+}
+
+div.boosties div.cpp14 {
+  background: linear-gradient(to bottom, #e0e0f0, #ccc);
+}
+
+div.boosties div.cpp17 {
+  background: linear-gradient(to bottom, #d0d0f0, #ccc);
+}
+
+div.boosties div.cpp23 {
+  background: linear-gradient(to bottom, #c0c0f0, #ccc);
+}
+
+.blur-edges {
+  mask-image:
+    linear-gradient(to right, transparent, black 2%, black 98%, transparent),
+    linear-gradient(to left, transparent, black 2%, black 98%, transparent),
+    linear-gradient(to top, transparent, black 2%, black 98%, transparent),
+    linear-gradient(to bottom, transparent, black 2%, black 98%, transparent);
+  mask-size: 100% 100%;
+  mask-composite: intersect;
+}

@@ -54,7 +54,24 @@ Maybe registers, addressing modes?
 
 ---
 
-## CLAUDE EXPLAIN REVEAL
+```cpp
+// setup
+  #include <string_view>
+
+constexpr auto valid_chars = "0123456789abcdef";
+
+bool is_valid_id(std::string_view maybe_id) {
+  if (maybe_id.size() != 16) {
+    return false;
+  }
+  if (maybe_id.find_first_not_of(valid_chars) != std::string_view::npos) {
+    return false;
+  }
+  return true;
+}
+```
+
+<!-- .element: data-ce data-ce-options="-O1" -->
 
 ---
 

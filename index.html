@@ -108,10 +108,26 @@
       import RevealNotes from "./reveal.js/plugin/notes/notes.esm.js";
       import CompilerExplorer from "./reveal-ce/index.js";
 
+      function asmSH4() {
+        return {
+          keywords: {
+            keyword:
+              "MOV ADD SUB MUL DIV FMOV ADD",
+          },
+          contains: [
+            { className: "keyword", begin: "\\.[WD]|SHL[LR][0-9]" },
+            { className: "comment", begin: ";", end: "$" },
+            { className: "labeldef", begin: "^\\.[a-zA-Z_][a-zA-Z_0-9]*" },
+            { className: "label", begin: "[a-z][a-zA-Z]*" },
+            { className: "literal", begin: "#?\\$?[0-9a-f]+" },
+          ],
+        };
+      }
+
       Reveal.initialize({
         history: true,
         transition: "fade",
-        slideNumber: true,
+        slideNumber: false,
         width: 1280,
         height: 720,
         markdown: {
@@ -119,8 +135,12 @@
         },
         plugins: [Markdown, CompilerExplorer, Highlight, RevealNotes],
         totalTime: 68 * 60,
+        highlight: {
+          beforeHighlight: (hljs) => hljs.registerLanguage("asmsh", asmSH4),
+        },
         ce: {
-          defaultCompiler: "g142",
+          baseUrl: "https://explain.compiler-explorer.com",
+          defaultCompiler: "g152",
           defaultCompilerOptions: "-march=skylake",
           maxLineLength: 100,
         },

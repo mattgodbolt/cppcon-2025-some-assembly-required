@@ -1,6 +1,6 @@
 <div class="r-stack r-stretch">
-<img class="" src="images/MattAge10.jpeg">
-<img class="fragment" src="images/MattAge10_book_highlight.jpeg">
+<img class="blur-edges" src="images/MattAge10.jpeg">
+<img class="fragment blur-edges" src="images/MattAge10_book_highlight.jpeg">
 </div>
 
 ---
@@ -10,10 +10,10 @@
 ---
 
 <div class="r-stack r-stretch">
-<img class="" src="images/MattAge10.jpeg">
-<img class="fragment" src="images/MattAge10_game_highlight.jpeg">
-<img class="fragment" src="images/TvCloseup.jpeg">
-<img class="fragment" src="images/mugsy.png">
+<img class="blur-edges" src="images/MattAge10.jpeg">
+<img class="fragment blur-edges" src="images/MattAge10_game_highlight.jpeg">
+<img class="fragment blur-edges" src="images/TvCloseup.jpeg">
+<img class="fragment blur-edges" src="images/mugsy.png">
 </div>
 
 ---
@@ -24,17 +24,17 @@ data-preload width=640px height=512px>
 ---
 
 <div class="r-stack r-stretch">
-<img src="images/AcornUser1.png">
-<img class="fragment" src="images/AcornUser2.png">
+<img class="blur-edges" src="images/AcornUser1.png">
+<img class="fragment blur-edges" src="images/AcornUser2.png">
 </div>
 
 ---
 
-<img class=r-stretch src="images/JuliaTypeIn.png">
+<img class="r-stretch blur-edges" src="images/JuliaTypeIn.png">
 
 ---
 
-<img class=r-stretch src="images/irclient.png">
+<img class="r-stretch blur-edges" src="images/irclient.png">
 
 Thanks [Gerph](https://gerph.org/riscos/ramble/earlyinternet-serversirc.html#IRClient).
 
@@ -42,7 +42,7 @@ Thanks [Gerph](https://gerph.org/riscos/ramble/earlyinternet-serversirc.html#IRC
 
 ---
 
-<img class=r-stretch src="images/irclient-source.png">
+<img class="r-stretch blur-edges" src="images/irclient-source.png">
 
 Source is on GitHub: [mattgodbolt/irclient](https://github.com/mattgodbolt/irclient).
 
@@ -64,7 +64,7 @@ but still asm:
 
 ---
 
-```asm
+```asmsh
   MOV.W	@strip+, vert		    ; get the vertex number
   ADD		#24, kmPtr			    ; move kmPtr past UV
 
@@ -85,13 +85,22 @@ but still asm:
   ADD		uvArrayPasted, uvPasted	; uvPasted points at the pasted UVs
 ```
 
-https://github.com/mattgodbolt/reddog
+Source on GitHub: [mattgodbolt/reddog](https://github.com/mattgodbolt/reddog)
+
+<!-- .element: class="attribution" -->
 
 ---
 
-## but assembly is still important
+<img class="r-stretch blur-edges" src="images/MattYellsAtCloud.png">
+
+---
+
+# Assembly is still important
+
+Notes:
 
 KNOWING HOW THINGS REALLY WORK
 
 ---
-<img class = r-stretch src="images/CE.png">
+
+<img class="r-stretch" src="images/CE.png">
