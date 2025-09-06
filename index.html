@@ -16,6 +16,12 @@
     <link rel="shortcut icon" href="images/favicon.png" />
 
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.5.0/chart.umd.js"
+      integrity="sha512-D4pL3vNgjkHR/qq+nZywuS6Hg1gwR+UzrdBW6Yg8l26revKyQHMgPq9CLJ2+HHalepS+NuGw1ayCCsGXu9JCXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
   </head>
   <body>
     <div class="reveal">
@@ -107,12 +113,12 @@
       import Highlight from "./reveal.js/plugin/highlight/highlight.esm.js";
       import RevealNotes from "./reveal.js/plugin/notes/notes.esm.js";
       import CompilerExplorer from "./reveal-ce/index.js";
+      import { setupChart } from "./cpp_conferences_graph.js";
 
       function asmSH4() {
         return {
           keywords: {
-            keyword:
-              "MOV ADD SUB MUL DIV FMOV ADD",
+            keyword: "MOV ADD SUB MUL DIV FMOV ADD",
           },
           contains: [
             { className: "keyword", begin: "\\.[WD]|SHL[LR][0-9]" },
@@ -153,6 +159,7 @@
             "hidden",
             event.currentSlide.classList.contains("hide-footer"),
           );
+        setupChart();
       };
       Reveal.on("ready", hideyMcHideFace);
 

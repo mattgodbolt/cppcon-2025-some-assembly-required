@@ -12,40 +12,6 @@ A language is a great thing, and C++ is a powerful language. However, if you hav
 
 Now, we'll get to the ease of accessing libraries in a second, but first, let's talk about the amazing library that ships with every C++ compiler - the Standard Template Library.
 
-## Boost
-
-What do all these STL components have in common?
-_list of boost things_
-
-All via Boost.
-
-STORY OF BOOST HERE; gateway to the STL. Also plenty of useful tools and libraries, some which will make it to the STL I'm sure.
-
-BEMAN HERE? How it fits in
-
-## Other parts
-
-- ranges
-- fmt
-- date
-
-## What else?!
-
-- abseil
-- folly
-- poco
-- Qt
-- nlohmann/json, RapidJSON
-- Dear ImGui
-- eigen
-- gtest/catch2/doctest
-- flux
-- hana's stuff coro, ctre
-
-## subconclusion
-
-C++ has a large set of pieces that work together. The ABI, while contentious, does help us keep those pieces working together.
-
 ---
 
 ## <span data-id="ST">ST</span><span data-id="epanov" style="font-size: 0px">epanov and </span><span data-id="L">L</span><span data-id="ee" style="font-size: 0px">ee<span>
@@ -54,11 +20,21 @@ C++ has a large set of pieces that work together. The ABI, while contentious, do
 
 Notes:
 
+- 70s -> 90s, Stepanov, first at GE with David Musser
+- Later HP
+- Scheme -> Ada -> C++
+- "templates like Ada - explicit instantiation"
+- implicit "crucial"
+- STL -> early Jan 94, Andy Koenig "if you want STL in the standard, we need the proposal by the 25th"
+- "Are you crazy?"
+- 80h weeks
+- 80% approval, largest ever
+
 In the 70s through to early 90s, Alexander Stepanov (with the later help of Meng Lee) was working on a generic programming library (working with and following on from David Musser), first in Scheme, then Ada, before trying out C++. At first it wasn't possible to achieve his goals in C++ - as templates hadn't been invented yet. Stepanov apparently argued with Bjarne that C++'s templates should be more like Ada's, with explicit instantiation. Bjarne didn't listen, and ultimately their implicit nature turned out to be "crucial" for STL (Stepanov's words).
 
 One of the interesting innovations was the fact that the complexity guarantees were part of the spec.
 
-We very nearly didn't get the STL, on January 4th 1994, Andy Koenig emailed Stepanov to say "if you want STL in the standard, we need the proposal by the 25th". Stepanov: "Are you crazy?" - Stepanov and Meng Lee worked 80h weeks to create the proposal, reimplementing several pieces as they found flaws. 80% approval from the committee - largest proposal ever. Even after they said they wouldn't accept major proposals!
+We very nearly didn't get the STL, early January 1994, Andy Koenig emailed Stepanov to say "if you want STL in the standard, we need the proposal by the 25th". Stepanov: "Are you crazy?" - Stepanov and Meng Lee worked 80h weeks to create the proposal, reimplementing several pieces as they found flaws. 80% approval from the committee - largest proposal ever. Even after they said they wouldn't accept major proposals!
 
 ---
 
@@ -109,7 +85,6 @@ It set the tone of what _I_ think of as C++, and generic programming. But it's n
 
 Notes:
 
-Beman Dawes passed away December 2020
 Field experience!
 boost filesystem 19 years !
 
@@ -125,15 +100,22 @@ etc
 ## Beman
 
 Notes:
+- Beman Dawes passed away December 2020
+- Announced 2024, streamlined process. 
+- Beman _explicitly_ states plan for standardization.
+- 13 libraries, including 
+  - optional extensions
+  - scope
+  - task
+  - any_view.
 
-Announced 2024, streamlined process. Beman _explicitly_ states plan for standardization.
-13 libraries, including optional extensions, scope, task, any_view.
-
-Complementary to boost. NOT competitive
+### Complementary to boost. NOT competitive
 
 ---
 
 ## other new libs making it into C++
+
+TODO
 
 - ranges
   - barry <img src="images/barry.png" class="blur-edges">
@@ -145,7 +127,9 @@ Complementary to boost. NOT competitive
 
 ---
 
-## Not just the STL though
+## Non-Standard Library
+
+TODO
 
 - abseil
 - folly
@@ -162,4 +146,8 @@ Complementary to boost. NOT competitive
 
 <h2>A set of pieces <br>that work together</h2>
 
-CHECK
+CHECKmark todo
+
+Notes:
+
+C++ has a large set of pieces that work together. The ABI, while contentious, does help us keep those pieces working together.

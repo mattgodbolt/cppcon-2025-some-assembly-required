@@ -11,6 +11,20 @@ From documentation to testing, from build systems to package managers, we'll exa
 
 ---
 
+First pseudorunthrough Sep 4th
+- 15m for intro. could spend more time on asm, but chose to skip through
+- 10m for libraries.
+- ... that was about as far as I had done
+- TODO process of putting together (10m?)
+- TODO legislative body (10m)
+- TODO congregation (5-10m?)
+- TODO Call to action (5-10m?)
+- == 55-65m... hmm
+  - maybe others will flesh out more
+  - maybe I can go slower
+  - maybe more on the OG assembly
+---
+
 Dump of new ideas in no particular order
 
 - C++ has always been "some assembly required"

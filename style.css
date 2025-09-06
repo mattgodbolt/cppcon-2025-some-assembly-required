@@ -110,3 +110,29 @@ div.boosties div.cpp23 {
   mask-size: 100% 100%;
   mask-composite: intersect;
 }
+
+.chart-container {
+  height: 500px;
+}
+
+.legend {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #555;
+}
+
+.legend-color {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+}
