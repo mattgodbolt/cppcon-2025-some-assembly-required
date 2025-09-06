@@ -229,3 +229,7 @@ div.org div.name img {
   height: 20px;
   border-radius: 4px;
 }
+
+.drop-shadow {
+  filter: drop-shadow(30px 30px 20px rgba(0, 0, 0, 0.6));
+}

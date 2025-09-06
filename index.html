@@ -130,6 +130,19 @@
         };
       }
 
+      function asmMy() {
+        return {
+          keywords: {
+            keyword: "imul mov ret mul inc add",
+          },
+          contains: [
+            { className: "literal", begin: "^[0-9a-f]+"},
+            { className: "symbol", begin: "\\b([er](ax|bx|cx|dx|si|di|sp|bp)|[wa][0-9]+)\\b" },
+            { className: "comment", begin: ";", end: "$" },
+          ],
+        };
+      }
+
       Reveal.initialize({
         history: true,
         transition: "fade",
@@ -142,7 +155,10 @@
         plugins: [Markdown, CompilerExplorer, Highlight, RevealNotes],
         totalTime: 68 * 60,
         highlight: {
-          beforeHighlight: (hljs) => hljs.registerLanguage("asmsh", asmSH4),
+          beforeHighlight: (hljs) => {
+            hljs.registerLanguage("asmsh", asmSH4);
+            hljs.registerLanguage("asmmy", asmMy);
+          }
         },
         ce: {
           baseUrl: "https://explain.compiler-explorer.com",
