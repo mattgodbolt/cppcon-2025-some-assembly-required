@@ -44,12 +44,19 @@ Thanks [Gerph](https://gerph.org/riscos/ramble/earlyinternet-serversirc.html#IRC
 
 <img class="r-stretch blur-edges" src="images/irclient-source.png">
 
-Source is on GitHub: [mattgodbolt/irclient](https://github.com/mattgodbolt/irclient).
+Source on GitHub: [mattgodbolt/irclient](https://github.com/mattgodbolt/irclient).
 
+<!-- .element: class="attribution" -->
 
 ---
 
-## Uni days: asm doesn't scale
+<img class="r-stretch blur-edges" src="images/xania.png">
+
+Source on GitHub: [mattgodbolt/xania](https://github.com/mattgodbolt/xania).
+
+<!-- .element: class="attribution" -->
+
+Notes:
 
 - Mud
 - irony of first C++ code was "eliza" <-> AI
@@ -57,30 +64,27 @@ Source is on GitHub: [mattgodbolt/irclient](https://github.com/mattgodbolt/ircli
 
 ---
 
-## C++ and games
-montage of games
-
-but still asm:
+<img class="r-stretch blur-edges" src="images/MattGames.png">
 
 ---
 
 ```asmsh
-  MOV.W	@strip+, vert		    ; get the vertex number
-  ADD		#24, kmPtr			    ; move kmPtr past UV
+  MOV.W	@strip+, vert		        ; get the vertex number
+  ADD		#24, kmPtr			        ; move kmPtr past UV
 
-  FMOV.D	@uvArray+, UV		  ; get the UV values
+  FMOV.D	@uvArray+, UV		      ; get the UV values
   MOV		vert, uvPasted
 
-  ADD		#24, kmPtrPasted	  ; move kmPtrPasted past
-  SHLL2	uvPasted			      ; uvPasted *= 4
+  ADD		#24, kmPtrPasted	      ; move kmPtrPasted past
+  SHLL2	uvPasted			          ; uvPasted *= 4
 
-  MOV.W	@strip+, nextVert	  ; get the next vertex number
+  MOV.W	@strip+, nextVert	      ; get the next vertex number
 
-  SHLL8	vert				        ; vert = vert * 256
+  SHLL8	vert				            ; vert = vert * 256
 
-  ADD		uvPasted, uvPasted  ; uvPasted *= 8 in total now
+  ADD		uvPasted, uvPasted      ; uvPasted *= 8 in total now
 
-  SHLR2	vert				        ; vert = (vert * 256) / 4  == vert * 64
+  SHLR2	vert				            ; vert = (vert * 256) / 4  == vert * 64
 
   ADD		uvArrayPasted, uvPasted	; uvPasted points at the pasted UVs
 ```
@@ -91,16 +95,16 @@ Source on GitHub: [mattgodbolt/reddog](https://github.com/mattgodbolt/reddog)
 
 ---
 
-<img class="r-stretch blur-edges" src="images/MattYellsAtCloud.png">
+<img class="r-stretch" src="images/CE.png">
 
 ---
 
-# Assembly is still important
+# Assembly is still important!
 
 Notes:
 
-KNOWING HOW THINGS REALLY WORK
+# KNOWING HOW THINGS REALLY WORK
 
 ---
 
-<img class="r-stretch" src="images/CE.png">
+<img class="r-stretch blur-edges" src="images/MattYellsAtCloud.png">

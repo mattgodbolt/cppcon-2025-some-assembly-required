@@ -23,6 +23,14 @@ First pseudorunthrough Sep 4th
   - maybe others will flesh out more
   - maybe I can go slower
   - maybe more on the OG assembly
+
+Second pseudorun Sep 6h:
+- 20m for intro and asm fake out though still needs work
+- 10m for libraries still, more fleshed out but can go slower
+- process 10m; probably needs to be 15m. needs human element and dehydra personal story. possible link to reflection
+- ... stopped here for a break ...
+- TODOs for the rest. zomg
+
 ---
 
 Dump of new ideas in no particular order
