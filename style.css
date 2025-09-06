@@ -101,6 +101,99 @@ div.boosties div.cpp23 {
   background: linear-gradient(to bottom, #c0c0f0, #ccc);
 }
 
+div.wgs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div.wgs > div {
+  padding: 0.3em;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  margin: 0.3em 1em;
+}
+
+div.wgs div.disbanded {
+  filter: blur(1.5px);
+  transform: scale(0.9);
+  background: linear-gradient(to bottom, #f0f0f0, #ccc);
+}
+
+div.wgs div.active {
+  background: linear-gradient(to bottom, #a5e0aa, #84c48c);
+}
+
+div.wa {
+  font-weight: bold;
+}
+div.wg {
+  font-size: 80%;
+  font-style: italic;
+}
+
+.oohme.visible {
+  transform: scale(1.3);
+  color: #822;
+  font-weight: bold;
+  box-shadow: 0 0 40px rgba(161, 253, 152, 1);
+}
+
+div.org {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  transform: scale(0.9);
+}
+
+div.iso {
+  background: linear-gradient(to bottom, #db9c9c, #5e4444);
+}
+
+div.isoiec {
+  background: linear-gradient(to bottom, #8b94e6, #40446b);
+}
+
+div.sc22 {
+  background: linear-gradient(to bottom, #e0d5a5, #504b37);
+}
+div.wg21 {
+  background: linear-gradient(to bottom, #a5e0aa, #84c48c);
+}
+
+div.ag {
+  background: linear-gradient(to bottom, #b96a57, #643b30);
+}
+
+div.cg {
+  background: linear-gradient(to bottom, #f1a490, #643b30);
+}
+
+div.eg {
+  background: linear-gradient(to bottom, #6b8ca7, #656980);
+}
+
+div.sg {
+  background: linear-gradient(to bottom, #88a76b, #738065);
+}
+
+div.org div.name {
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  font-weight: bold;
+}
+
+div.org div.name img {
+  height: 80px;
+}
+
 .blur-edges {
   mask-image:
     linear-gradient(to right, transparent, black 2%, black 98%, transparent),
