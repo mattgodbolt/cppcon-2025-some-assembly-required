@@ -133,11 +133,11 @@
       function asmMy() {
         return {
           keywords: {
-            keyword: "imul mov ret mul inc add",
+            keyword: "imul mov ret mul inc add rep stosb b ldr and madd jal lru lea vaddps",
           },
           contains: [
             { className: "literal", begin: "^[0-9a-f]+"},
-            { className: "symbol", begin: "\\b([er](ax|bx|cx|dx|si|di|sp|bp)|[wa][0-9]+)\\b" },
+            { className: "symbol", begin: "\\b([er]?(ax|bx|cx|dx|si|di|sp|bp)|([watx]|[xyz]mm|k)[0-9]+)\\b" },
             { className: "comment", begin: ";", end: "$" },
           ],
         };

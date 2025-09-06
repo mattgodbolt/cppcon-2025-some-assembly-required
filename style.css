@@ -233,3 +233,72 @@ div.org div.name img {
 .drop-shadow {
   filter: drop-shadow(30px 30px 20px rgba(0, 0, 0, 0.6));
 }
+
+table.registers {
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  margin: auto;
+  width: 60%;
+}
+
+div.registerlist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+div.registerlist > div {
+  padding: 0.1em;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  margin: 0em 0.2em;
+}
+
+table.registers th {
+  font-size: 30px;
+  text-align: center;
+}
+
+table.registers td {
+  text-align: center;
+}
+
+.registers td.register {
+  border: 1px solid black;
+}
+
+.register {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.sse {
+  background: rgb(245, 149, 213);
+}
+
+.rax {
+  background: rgb(141, 211, 199);
+}
+
+.eax {
+  background: rgb(255, 255, 179);
+}
+
+.ax {
+  background: rgb(190, 186, 218);
+}
+
+.ah {
+  background: rgb(251, 128, 114);
+}
+
+.al {
+  background: rgb(128, 177, 211);
+}
+
+.registers td.regnote {
+  font-size: smaller;
+  font-style: italic;
+}
