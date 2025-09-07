@@ -83,7 +83,7 @@ More notes:
   - Bjarne
   - Stepanov (& Meng Lee check sp)
   - Beman Dawes
-  - Dave Abraham
+  - Dave Abrahams
   - Peter Dimov
   - Anthony Williams
   - Howard Hinnant

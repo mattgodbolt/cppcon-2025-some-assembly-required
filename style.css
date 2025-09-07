@@ -5,6 +5,7 @@
 .container {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .flex-around {
@@ -301,4 +302,33 @@ table.registers td {
 .registers td.regnote {
   font-size: smaller;
   font-style: italic;
+}
+
+.libs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+div.lib {
+  padding: 0.2em;
+}
+
+.lib .name {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.lib img {
+  width: auto;
+  height: 300px;
+}
+
+.lots .lib img {
+  width: auto;
+  height: 200px;
+}
+
+.checkmark {
+  font-size: 5em;
+  filter: drop-shadow(30px 30px 20px rgba(0, 0, 0, 0.6));
 }

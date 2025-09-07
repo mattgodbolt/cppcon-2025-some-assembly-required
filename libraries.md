@@ -89,6 +89,7 @@ Field experience!
 boost filesystem 19 years !
 
 High quality components, not _necessarily_ targeted for standardization, e.g.
+
 - boost::spirit
 - boost::python
 - boost::computer
@@ -97,13 +98,16 @@ etc
 
 ---
 
-## Beman
+<div class="container">
+<img src="images/beman_logo.png" height="200px"><h2>The Beman Project</h2><img src="images/beman_logo_reversed.png" height="200px">
+</div>
 
 Notes:
-- Beman Dawes passed away December 2020
-- Announced 2024, streamlined process. 
+
+- Beman Dawes passed away suddenly December 2020
+- Announced CppNow 2024 by David Sankel. Involve og boost; Dave Abrahams, streamlined process
 - Beman _explicitly_ states plan for standardization.
-- 13 libraries, including 
+- 13 libraries, including
   - optional extensions
   - scope
   - task
@@ -113,40 +117,38 @@ Notes:
 
 ---
 
-## other new libs making it into C++
-
-TODO
-
-- ranges
-  - barry <img src="images/barry.png" class="blur-edges">
-- fmt
-  - victor <img src="images/victor.png" class="blur-edges">
-- date
-  - howard <img src="images/howard.png" class="blur-edges">
-- gsl
+<div class="libs">
+<div class="lib"><img src="images/barry.png" class="blur-edges"><div class="name">ranges</div></div>
+<div class="lib"><img src="images/victor.png" class="blur-edges"><div class="name">format</div></div>
+<div class="lib"><img src="images/howard.png" class="blur-edges"><div class="name">date</div></div>
+<div class="lib"><img src="images/ms.png" class="blur-edges"><div class="name">span</div></div>
+</div>
 
 ---
 
-## Non-Standard Library
-
-TODO
-
-- abseil
-- folly
-- poco
-- Qt
-- nlohmann/json, RapidJSON
-- Dear ImGui
-- eigen
-- gtest/catch2/doctest
-- flux
-- hana's stuff coro, ctre
+<div class="libs lots">
+<div class="lib"><img src="images/abseil.png" class="blur-edges"><div class="name">abseil</div></div>
+<div class="lib"><img src="images/qt.png" class="blur-edges"><div class="name">Qt</div></div>
+<div class="lib"><img src="images/hana.jpeg" class="blur-edges"><div class="name">co_curl</div></div>
+<div class="lib"><img src="images/nlohmann.jpeg" class="blur-edges"><div class="name">nlohmann/json</div></div>
+<div class="lib"><img src="images/doctest.png" class="blur-edges"><div class="name">doctest</div></div>
+<div class="lib"><img src="images/omar.jpeg" class="blur-edges"><div class="name">Dear ImGui</div></div>
+ <div class="lib"><img src="images/simdjson.png" class="blur-edges"><div class="name">simdjson</div></div>
+<div class="lib"><img src="images/meta.png" class="blur-edges"><div class="name">folly</div></div>
+<div class="lib"><img src="images/poco.png" class="blur-edges"><div class="name">poco</div></div>
+<div class="lib"><img src="images/eigen.png" class="blur-edges"><div class="name">eigen</div></div>
+<div class="lib"><img src="images/google.png" class="blur-edges"><div class="name">googletest</div></div>
+<div class="lib"><img src="images/tristan.jpeg" class="blur-edges"><div class="name">flux</div></div>
+<div class="lib"><img src="images/catch2.png" class="blur-edges"><div class="name">Catch2</div></div>
+<div class="lib"><img src="images/tencent.png" class="blur-edges"><div class="name">RapidJSON</div></div>
+<div class="lib"><img src="images/hana.jpeg" class="blur-edges"><div class="name">ctre</div></div>
+</div>
 
 ---
 
 <h2>A set of pieces <br>that work together</h2>
 
-CHECKmark todo
+<p class="checkmark fragment">✅</p>
 
 Notes:
 
