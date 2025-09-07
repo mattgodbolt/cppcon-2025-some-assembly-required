@@ -1,22 +1,34 @@
-<h2 class=r-fit-text data-id=title>A drum beat signal<br>for <span data-id=name>troops</span> to assemble</h2>
+<h2>A drum beat signal for<br><span data-id="troops">troops</span><span data-id="coders" style="font-size:0">C++ coders</span> to assemble</h2>
 
-<!-- .element: class="r-fit-text" -->
-
----
-<h2 class=r-fit-text data-id=title>A drum beat signal<br>for <b data-id=name>C++ coders</b> to assemble</h2>
-
-<!-- .element: class="r-fit-text" -->
+<!-- .slide: data-auto-animate -->
 
 ---
+
+<h2>A drum beat signal for<br><span data-id="troops" style="font-size:0">troops</span><span data-id="coders">C++ coders</span> to assemble</h2>
+
+<!-- .slide: data-auto-animate -->
+
+---
+
+# This is your community
+
+Notes:
 
 Amazing community to be part of, blessed to have lucked into it and CE etc
 
 ---
 
-CALL TO ACTION! this is your language, you can make it what you want
+# It takes a village
 
+Notes:
 - on ramps for new people for your codebase
 - contribute to an OSS or
 - open source something!
 - get involved! go to a meetup. do a conference talk
 - participate in the standards!
+
+---
+
+<img src="images/ISO_C++_Logo.svg.png" height="300px">
+
+# Some Assembly Required

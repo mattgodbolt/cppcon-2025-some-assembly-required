@@ -4,18 +4,23 @@
 
 ---
 
-- PHOTO OF THE AUDIENCE!
+<img src="images/audience.jpg" class="r-stretch blur-edges">
+
+Notes:
+One of the most powerful parts of C++ is not the language, or the libraries, or the tools. But YOU - the people! Without individuals and groups teaming up to make C++ what it is, we would not have this amazing language and ecosystem.
+
+There's so many ways to participate - being here is just one part of that:
 
 ---
 
 ### 📈 C++ Conferences Growth (2014-2025)
+
 #### Number of Major C++ Conferences Worldwide
 
 <div class="chart-container">
     <canvas id="conferenceChart"></canvas>
 </div>
 
-        
 <div class="legend">
     <div class="legend-item">
         <div class="legend-color" style="background: #667eea;"></div>
@@ -31,16 +36,54 @@
     </div>
 </div>
 
+Notes:
+
+There's so many C++ conferences: and numbers still growing, and we've recovered from the pandemic. That's not the only way though.
 
 ---
 
-- thriving community conferences
-  - Around 10 international C++ conferences this year
-  - Slowly growing number, pioneered by CppCon
-  - show cpp_conferences_graph.html
-- Meetups
-  - meetingcpp lists 113 C++ User Groups
-- how to tie in with "rust" etc? other more trendy languages
-- Discords / Slacks
-  - list them
-- C++ is a community
+<div class="meets">
+<div class="meet"><img src="images/meetup.png"></div>
+<div class="meet"><img src="images/meet_berlin.avif"></div>
+<div class="meet"><img src="images/meet_madrid.avif"></div>
+<div class="meet"><img src="images/meet_chicago.avif"></div>
+<div class="meet"><img src="images/meet_auckland.avif"></div>
+<div class="meet"><img src="images/meet_london.avif"></div>
+<div class="meet"><img src="images/meet_wro.avif"></div>
+<div class="meet"><img src="images/meet_oslo.avif"></div>
+<div class="meet"><img src="images/meet_karlsruhe.avif"></div>
+<div class="meet"><img src="images/meet_belgium.png"></div>
+<div class="meet"><img src="images/meet_austin.avif"></div>
+<div class="meet"><img src="images/meet_romania.png"></div>
+<div class="meet"><img src="images/meet_montreal.avif"></div>
+<div class="meet"><img src="images/meet_portland.avif"></div>
+<div class="meet"><h2>...</h2></div>
+</div>
+
+Notes:
+
+- Meeting CPP lists 113 C++ User Groups
+- there's bound to be one near you
+
+---
+
+<img src="images/slack.png" class="blur-edges" width="300px">
+
+<div class="meets">
+<div class="meet"></div>
+<div class="meet"><img src="images/cpp_alliance_logo.svg"></div>
+</div>
+
+<img src="images/discord.png" width="300px">
+
+<div class="meets">
+<div class="meet"><img src="images/ISO_C++_Logo.svg.png"></div>
+<div class="meet"><img src="images/together_cpp.jpg"></div>
+<div class="meet"><img src="images/better_cpp.jpg"></div>
+<div class="meet"><img src="images/cpp_central.jpg"></div>
+</div>
+
+Notes:
+
+Slack, C++ Alliance
+10+ Discords, all of which seem to use similar logos

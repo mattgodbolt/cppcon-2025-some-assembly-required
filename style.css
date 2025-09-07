@@ -310,9 +310,10 @@ table.registers td {
   font-style: italic;
 }
 
-.libs {
+.libs, .meets {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -337,4 +338,12 @@ div.lib {
 .checkmark {
   font-size: 5em;
   filter: drop-shadow(30px 30px 20px rgba(0, 0, 0, 0.6));
+}
+
+.meet img {
+  padding: 0.1em;
+  height: auto;
+  width: auto;
+  max-width: 300px;
+  max-height: 150px;
 }
