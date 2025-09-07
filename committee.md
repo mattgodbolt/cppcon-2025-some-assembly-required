@@ -127,4 +127,4 @@ The process, TS, whatnot.
 
 ## A legislative body
 
-CHECKMARK TODO
+<p class="checkmark fragment">✅</p>

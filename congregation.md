@@ -87,3 +87,23 @@ Notes:
 
 Slack, C++ Alliance
 10+ Discords, all of which seem to use similar logos
+
+---
+
+<img src="images/cppreference.png" class="r-stretch blur-edges">
+
+---
+
+<div class="libs">
+<div class="lib"><img src="images/cppsh.png"></div>
+<div class="lib"><img src="images/wandbox.png"></div>
+<div class="lib"><img src="images/online_gdb.png"></div>
+<div class="lib"><img src="images/programwiz.png"></div>
+<div class="lib"><img src="images/onecompiler.png"></div>
+</div>
+
+---
+
+<h2>A congregation of people<br>in one place<br>for a purpose</h2>
+
+<p class="checkmark fragment">✅</p>

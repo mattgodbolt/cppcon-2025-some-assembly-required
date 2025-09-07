@@ -21,6 +21,7 @@ Amazing community to be part of, blessed to have lucked into it and CE etc
 # It takes a village
 
 Notes:
+
 - on ramps for new people for your codebase
 - contribute to an OSS or
 - open source something!
