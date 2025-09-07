@@ -150,10 +150,15 @@ div.org {
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   transform: scale(0.9);
+  padding-bottom: 1.5em;
 }
 
 div.iso {
   background: linear-gradient(to bottom, #db9c9c, #5e4444);
+}
+
+div.iso img {
+  padding: 0 4em;
 }
 
 div.isoiec {
@@ -165,6 +170,7 @@ div.sc22 {
 }
 div.wg21 {
   background: linear-gradient(to bottom, #a5e0aa, #84c48c);
+  padding-bottom: 0;
 }
 
 div.ag {
