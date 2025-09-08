@@ -21,7 +21,7 @@ Now, we'll get to the ease of accessing libraries in a second, but first, let's 
 Notes:
 
 - 70s -> 90s, Stepanov, first at GE with David Musser
-- Later HP
+- Later HP , then SGI
 - Scheme -> Ada -> C++
 - "templates like Ada - explicit instantiation"
 - implicit "crucial"
@@ -29,6 +29,8 @@ Notes:
 - "Are you crazy?"
 - 80h weeks
 - 80% approval, largest ever
+- after HP; Stepanaov continued STL dev at SGI (HP STL) (threading fix)
+  - fed into libstdc++
 
 In the 70s through to early 90s, Alexander Stepanov (with the later help of Meng Lee) was working on a generic programming library (working with and following on from David Musser), first in Scheme, then Ada, before trying out C++. At first it wasn't possible to achieve his goals in C++ - as templates hadn't been invented yet. Stepanov apparently argued with Bjarne that C++'s templates should be more like Ada's, with explicit instantiation. Bjarne didn't listen, and ultimately their implicit nature turned out to be "crucial" for STL (Stepanov's words).
 
@@ -48,9 +50,11 @@ Notes:
 
 Stepanov said the STL should stand for "STepanov and Lee".
 
-Thanks to Hewlett-Packard for letting Stepanov make the STL free for all. And to PJ Plauger at Dinkumware for taking the STL and making it production-ready, and licensing it to MS.
+Thanks to Hewlett-Packard for letting Stepanov make the STL free for all, and SGI for continuing to keep Stepanov's work free. And to PJ Plauger at Dinkumware for taking the STL and making it production-ready, and licensing it to MS.
 
 It set the tone of what _I_ think of as C++, and generic programming. But it's not the only library in town, and it's grown a lot since!
+
+Standard Library != STL
 
 ---
 

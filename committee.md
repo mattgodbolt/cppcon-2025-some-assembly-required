@@ -95,9 +95,14 @@ Notes:
   </div> 
 </div>
 
+Notes:
+
+To scale, SG23 would dwarf the rest
+
 ---
 
 The process, TS, whatnot.
+TODO
 
 ---
 

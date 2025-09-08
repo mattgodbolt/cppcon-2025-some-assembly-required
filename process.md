@@ -4,7 +4,7 @@
 
 ---
 
-<img class="r-stretch" src="images/IKEA-ish.jpeg">
+<img class="r-stretch" src="images/IKEA-ish.png">
 
 Notes:
 

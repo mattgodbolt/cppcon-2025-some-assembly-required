@@ -30,6 +30,6 @@ Notes:
 
 ---
 
-<img src="images/ISO_C++_Logo.svg.png" height="300px">
+<img src="images/ISO_C++_Logo.svg.png" height="300px" class="drop-shadow">
 
 # Some Assembly Required

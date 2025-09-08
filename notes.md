@@ -9,6 +9,19 @@ From documentation to testing, from build systems to package managers, we'll exa
 
 *** IF I TAKE OUT RAINFOREST METAPHORS UPDATE THE ABSTRACT ***
 
+PRE_RUN NOTES:
+
+CHECK THE INTEL?ARM?RISCV ASM PAGE WITH THE SCREEN RESOLUTION!!!
+
+TAKE A PHOTO OF AUDIENCE
+
+---
+
+todos: 
+- some kind of interstitial page between sections
+- finish "TS" the process of the committee
+- CONCLUSION shore that up
+
 ---
 
 First pseudorunthrough Sep 4th
