@@ -43,17 +43,19 @@ By [Peter J. Yost](https://commons.wikimedia.org/w/index.php?curid=98351026) - O
 
 ---
 
-<img src="images/Intel_logo_2023.svg.png" height="100px" style="margin-right: 2em">
+<img src="images/Intel_logo_2023.svg.png" class="vendor" style="margin-right: 2em">
 
-<img src="images/arm_logo.png" height="100px">
+<img src="images/arm_logo.png" class="vendor">
 
-<img src="images/riscv-color.svg" height="100px" style="margin-left: 2em">
+<img src="images/riscv-color.svg" class="vendor" style="margin-left: 2em">
  
 <!-- .slide: data-auto-animate -->
 
 ---
 
-<img src="images/Intel_logo_2023.svg.png" height="100px">
+<div class="asmtab">
+
+<img src="images/Intel_logo_2023.svg.png" class="vendor">
 
 ```asmmy
 0fafff    imul edi, edi
@@ -61,19 +63,21 @@ By [Peter J. Yost](https://commons.wikimedia.org/w/index.php?curid=98351026) - O
 c3        ret
 ```
 
-<img src="images/arm_logo.png" height="100px">
+<img src="images/arm_logo.png" class="vendor">
 
 ```asmmy
 1b007c00  mul w0, w0, w0
 d65f03c0  ret
 ```
 
-<img src="images/riscv-color.svg" height="100px">
+<img src="images/riscv-color.svg" class="vendor">
 
 ```asmmy
 02a5053b  mul a0, a0, a0
 8082      ret
 ```
+
+</div>
 
 <!-- .slide: data-auto-animate -->
 
@@ -81,7 +85,9 @@ Notes:
 
 ---
 
-<img src="images/Intel_logo_2023.svg.png" height="50px">
+<div class="asmtab">
+
+<img src="images/Intel_logo_2023.svg.png" class="vendor">
 
 ```asmmy
  ret                  ; no operands
@@ -93,9 +99,7 @@ Notes:
  vaddps zmm0{k1}, zmm2, zmm2 ; four
 ```
 
-<!-- .element: style="font-size: 40%" -->
-
-<img src="images/arm_logo.png" height="50px">
+<img src="images/arm_logo.png" class="vendor">
 
 ```asmmy
  ret                  ; no operands
@@ -105,9 +109,7 @@ Notes:
  madd w0, w1, w2, w3  ; four operands
 ```
 
-<!-- .element: style="font-size: 40%" -->
-
-<img src="images/riscv-color.svg" height="50px">
+<img src="images/riscv-color.svg" class="vendor">
 
 ```asmmy
  ret                  ; no operands (ish)
@@ -116,13 +118,13 @@ Notes:
  mul a0, t0, t1       ; three operands
 ```
 
-<!-- .element: style="font-size: 40%" -->
+</div>
 
 <!-- .slide: data-auto-animate -->
 
 ---
 
-<img src="images/Intel_logo_2023.svg.png" height="100px">
+<img src="images/Intel_logo_2023.svg.png" class="vendor">
 
 <table class="registers">
     <thead>
@@ -176,9 +178,11 @@ Notes:
   <div class="register sse">xmm0 - xmm15</div>
 </div>
 
+<!-- .slide: data-auto-animate -->
+
 ---
 
-<img src="images/arm_logo.png" height="100px">
+<img src="images/arm_logo.png" class="vendor">
 
 <table class="registers">
     <thead>
@@ -200,7 +204,7 @@ Notes:
 
 ---
 
-<img src="images/riscv-color.svg" height="100px">
+<img src="images/riscv-color.svg" class="vendor">
 
 <table class="registers">
     <thead>

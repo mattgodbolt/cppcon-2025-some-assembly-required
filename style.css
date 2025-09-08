@@ -353,3 +353,14 @@ div.vs {
   max-width: 300px;
   max-height: 150px;
 }
+
+div.asmtab {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+img.vendor {
+  height: 100px;
+  max-width: 300px;
+  margin: auto;
+}
