@@ -74,16 +74,16 @@ div.footer {
 div.boosties {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   font-family: "Courier New", Courier, monospace;
 }
 
 div.boosties div {
-  padding: 0.4em;
+  padding: 0.3em;
   border: 1px solid black;
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-  margin: 0.4em 1.5em;
+  margin: 0.3em 1.4em;
 }
 
 div.boosties div.cpp11 {
@@ -331,14 +331,20 @@ div.vs {
 
 .lib img {
   width: auto;
-  height: 300px;
-  max-width: 400px;
+  height: 280px;
+  max-width: 350px;
+  margin: 0 0.3em;
+  filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.6));
 }
 
 .lots .lib img {
   width: auto;
-  height: 200px;
-  max-width: 300px;
+  height: 120px;
+  max-width: 220px;
+}
+
+.lots .name {
+  font-size: 70%;
 }
 
 .checkmark {
