@@ -122,18 +122,9 @@ ABI ... helps?
 
 ---
 
-### bash scripts and python side tooling
-
-### Maybe more in C++ with reflection!
-
-### libclang
-
-### dehydra story?
-
-### sanitizers?
-
-
 <div class="libs lots">
+<div class="lib"><img src="images/bash_logo.png"><div class="name">bash</div></div>
+<div class="lib"><img src="images/Python-logo-notext.svg.png"><div class="name">python</div></div>
 <div class="lib"><img src="images/DragonFull.png"><div class="name">clang-tidy</div></div>
 <div class="lib"><img src="images/DragonFull.png"><div class="name">libclang</div></div>
 <div class="lib"><img src="images/cpplint.png"><div class="name">cpplint</div></div>
@@ -144,11 +135,16 @@ ABI ... helps?
 
 Notes:
 
+- Maybe more in C++ with reflection! Reflection placholder!
+- dehydra story
+- sanitizers
+
 ---
 
-# HUMANS
+<img src="images/humans.png" class="r-stretch blur-edges">
 
-TODO
+Notes:
+
 - documentation!
 - the how and why, the Tao
 - coding conventions
@@ -157,7 +153,6 @@ TODO
 - Wall Wextra Wsign-conversion
 - Compiler Explorer!? :D
 
-Notes:
 documentation, doc generators etc
 
 ---

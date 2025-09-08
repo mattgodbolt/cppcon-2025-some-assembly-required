@@ -325,14 +325,20 @@ div.lib {
   font-family: "Courier New", Courier, monospace;
 }
 
+div.vs {
+  padding: 0 2em;
+}
+
 .lib img {
   width: auto;
   height: 300px;
+  max-width: 400px;
 }
 
 .lots .lib img {
   width: auto;
   height: 200px;
+  max-width: 300px;
 }
 
 .checkmark {

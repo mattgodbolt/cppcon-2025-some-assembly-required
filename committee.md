@@ -101,27 +101,60 @@ The process, TS, whatnot.
 
 ---
 
-## Why different
+<div class="libs">
+<div class="lib"><img src="images/ISO_C++_Logo.svg.png"></div>
+<div class="vs"><h3>vs</h3></div>
+<div class="lib"><img src="images/rust-logo-blk.svg"></div>
+</div>
 
-- Rust (Single implementation)
+Notes:
+- Single implementation
   - Leadership council
   - RFCs
-- Python (Community Governance)
-  - BDFL -> Steering Council (5 ppl)
-  - Annual release
-  - PEPs
-- Javascript (Vendor consensus)
-  - ECMA's TC39 Committee
-    - (stndards body, also does C# Dart)
-  - 5 stage process
 
 ---
 
-## Why it's better^H^H^H^Hdifferent
+<div class="libs">
+<div class="lib"><img src="images/ISO_C++_Logo.svg.png"></div>
+<div class="vs"><h3>vs</h3></div>
+<div class="lib"><img src="images/Python-logo-notext.svg.png"></div>
+</div>
 
-- Formal
-- Many imnplementation
-- Unlocks what?
+Notes:
+- was: BFDL, Guido stepped down in 2018
+- Now Community Governance
+- BDFL -> Steering Council (5 ppl)
+- Annual release
+- PEPs
+
+---
+
+<div class="libs">
+<div class="lib"><img src="images/ISO_C++_Logo.svg.png"></div>
+<div class="vs"><h3>vs</h3></div>
+<div class="lib"><img src="images/Unofficial_JavaScript_logo_2.svg.png"></div>
+</div>
+
+Notes:
+- Javascript (Vendor consensus)
+- ECMA's TC39 Committee
+ - (stndards body, also does C# Dart)
+- 5 stage process
+
+---
+
+<img src="images/Committee.jpg">
+<img src="images/Committee-remote.jpg">
+<p class="attribution">Photo - Frank Birbacher</p>
+
+Notes:
+- Formal process
+- Multiple implementations
+- Vendors still have flexibility to add things they want
+- But we can all (mostly) rely on writing the same C++ and have it work everywhere
+- Long process, but results are long-lived
+  - code from 1970s still works in our code base! ABIs etc
+- HUGE thanks to folks who volunteer their time, and their employers, to make C++ what it is
 
 ---
 
