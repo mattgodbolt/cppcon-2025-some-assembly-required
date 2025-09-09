@@ -101,8 +101,22 @@ To scale, SG23 would dwarf the rest
 
 ---
 
-The process, TS, whatnot.
-TODO
+<div class="mermaid">
+<pre>
+%%{init: {'theme': 'forest'} }%%
+flowchart LR
+  Idea@{ shape: circle, label: "💡 Idea"} --> Paper(📝 Paper) --> SG;
+  SG -- Lib? --> LEWG --> LWG --> Plenary;
+  SG -- Lang? --> EWG --> CWG --> Plenary;
+  Plenary --> Up(🎉 New C++ Version!)
+  style LEWG fill:#6b8ca7;
+  style EWG fill:#6b8ca7;
+  style LWG fill:#f1a490;
+  style CWG fill:#f1a490;
+  style Plenary fill:#b96a57;
+  style SG fill:#88a76b;
+</pre>
+</div>
 
 ---
 
@@ -113,6 +127,7 @@ TODO
 </div>
 
 Notes:
+
 - Single implementation
   - Leadership council
   - RFCs
@@ -126,6 +141,7 @@ Notes:
 </div>
 
 Notes:
+
 - was: BFDL, Guido stepped down in 2018
 - Now Community Governance
 - BDFL -> Steering Council (5 ppl)
@@ -141,9 +157,10 @@ Notes:
 </div>
 
 Notes:
+
 - Javascript (Vendor consensus)
 - ECMA's TC39 Committee
- - (stndards body, also does C# Dart)
+- (stndards body, also does C# Dart)
 - 5 stage process
 
 ---
@@ -153,6 +170,7 @@ Notes:
 <p class="attribution">Photo - Frank Birbacher</p>
 
 Notes:
+
 - Formal process
 - Multiple implementations
 - Vendors still have flexibility to add things they want

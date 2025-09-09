@@ -18,8 +18,6 @@ TAKE A PHOTO OF AUDIENCE
 ---
 
 todos: 
-- some kind of interstitial page between sections
-- finish "TS" the process of the committee
 - CONCLUSION shore that up
 
 ---
@@ -43,6 +41,22 @@ Second pseudorun Sep 6h:
 - process 10m; probably needs to be 15m. needs human element and dehydra personal story. possible link to reflection
 - ... stopped here for a break ...
 - TODOs for the rest. zomg
+
+Third actual run through Sep 8th
+- ~20m to end of intro and asm. Could spend longer on asm, as I don't have _as much_ content as I'd like after.
+- 30m to "boost"
+- Over in 1h 2m, even though I laboured a bit over the intro? (maybe not looking back)
+- Need some info on "when boost started" and that in speaker notes
+- MORE LIBRARIES; looked thin when I presented (but was on higher rez screen)
+- Add a list of SGs
+- "Human" part weak
+- MORE CLARITY on the process of an idea going through
+  - use example of "switch constexpr" maybe?
+  - read up on this
+- Conclusion woolly still
+- Perhaps need a call back to assembly language too at the end
+
+READ THROUGH BELOW IDEAS AND flesh out anything with them
 
 ---
 

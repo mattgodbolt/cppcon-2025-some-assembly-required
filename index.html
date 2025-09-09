@@ -22,6 +22,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-mermaid-plugin@11.6.0/plugin/mermaid/mermaid.js"></script>
   </head>
   <body>
     <div class="reveal">
@@ -126,7 +127,7 @@
         markdown: {
           smartypants: true,
         },
-        plugins: [Markdown, CompilerExplorer, Highlight, RevealNotes],
+        plugins: [Markdown, CompilerExplorer, RevealMermaid, Highlight, RevealNotes],
         totalTime: 68 * 60,
         highlight: {
           beforeHighlight: (hljs) => {
