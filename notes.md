@@ -11,7 +11,7 @@ From documentation to testing, from build systems to package managers, we'll exa
 
 PRE_RUN NOTES:
 
-CHECK THE INTEL?ARM?RISCV ASM PAGE WITH THE SCREEN RESOLUTION!!!
+CHECK THE INTEL?ARM?RISCV ASM PAGE WITH THE SCREEN RESOLUTION!!! AND THE LIBRARY PAGE
 
 TAKE A PHOTO OF AUDIENCE
 
@@ -77,7 +77,7 @@ STL
   - find og stepanov
 - david stone gave a talk: "functions want to be free"
   - functions should be stl design
-- boost pre standard?
+- boost pre standard? NO
 
 other libs:
 - mdspan !! standardization 

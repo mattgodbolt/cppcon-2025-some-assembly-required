@@ -381,6 +381,12 @@ bool is_valid_id(std::string_view maybe_id) {
 
 <!-- .element: data-ce data-ce-options="-O1" -->
 
+Notes:
+
+- calling convention
+- no unroll loops -fno-unroll-loops
+- clang? other exploring
+
 ---
 
 ## Thanks!

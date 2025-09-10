@@ -2,6 +2,9 @@
 
 <!-- .element: class="r-fit-text" -->
 
+Notes:
+ASK THE AUDIENCE
+
 ---
 
 ## Libraries
@@ -22,7 +25,80 @@ Notes:
 
 - 70s -> 90s, Stepanov, first at GE with David Musser
 - Later HP , then SGI
-- Scheme -> Ada -> C++
+
+---
+
+## <span data-id="ST">ST</span><span data-id="epanov" style="font-size: 0px">epanov and </span><span data-id="L">L</span><span data-id="ee" style="font-size: 0px">ee<span>
+
+```scheme []
+(define (count predicate list)
+  (let ((result 0))
+    (for-each 
+      (lambda (x) 
+        (if (predicate x)
+            (set! result (+ result 1))))
+      list)
+    result))
+```
+
+<!-- .slide: data-auto-animate -->
+
+Notes:
+
+- Scheme (1986) 
+- From the notes, page 9 and expanded on page 46
+
+---
+
+## <span data-id="ST">ST</span><span data-id="epanov" style="font-size: 0px">epanov and </span><span data-id="L">L</span><span data-id="ee" style="font-size: 0px">ee<span>
+
+```ada []
+generic
+  with function Test(E : Element) return Boolean;
+function Count_If(S : Sequence) return Integer;
+-- Returns a non-negative integer, the number
+-- of elements E of S such that Test(E) is true.
+
+function Count_If(S : Sequence) return Integer is
+  function Test_Aux is new Make_Test_If(Test);
+  function Count_Aux 
+    is new Algorithms.Count(Test_Aux);
+begin
+  return Count_Aux(S);
+end Count_If;
+```
+
+<!-- .slide: data-auto-animate -->
+
+Notes:
+- 1987-88
+- Ada Generic Library paper
+
+---
+
+## <span data-id="ST">ST</span><span data-id="epanov" style="font-size: 0px">epanov and </span><span data-id="L">L</span><span data-id="ee" style="font-size: 0px">ee<span>
+
+```cpp []
+template<class InputIterator, class Predicate>
+typename iterator_traits<InputIterator>::difference_type
+count_if(InputIterator first, InputIterator last, 
+         Predicate pred) {
+  typename iterator_traits<InputIterator>::difference_type n = 0;
+  for (; first != last; ++first)
+    if (pred(*first))
+      ++n;
+  return n;
+}
+```
+
+<!-- .slide: data-auto-animate -->
+
+Notes:
+
+- Evolution
+  - Scheme: Higher-order functions with predicates
+  - Ada: Generic packages with formal function parameters
+  - C++: Templates with iterators and predicates
 - "templates like Ada - explicit instantiation"
 - implicit "crucial"
 - STL -> early Jan 94, Andy Koenig "if you want STL in the standard, we need the proposal by the 25th"
@@ -48,7 +124,11 @@ We very nearly didn't get the STL, early January 1994, Andy Koenig emailed Stepa
 
 Notes:
 
-Stepanov said the STL should stand for "STepanov and Lee".
+- Stepanov said the STL should stand for "STepanov and Lee".
+- Thanks HP, SGI. PJ Plauger Dinkumware
+- david stone gave a talk: "functions want to be free"
+- set tone for C++
+- STL != Standard Library
 
 Thanks to Hewlett-Packard for letting Stepanov make the STL free for all, and SGI for continuing to keep Stepanov's work free. And to PJ Plauger at Dinkumware for taking the STL and making it production-ready, and licensing it to MS.
 
@@ -89,16 +169,16 @@ Standard Library != STL
 
 Notes:
 
-Field experience!
-boost filesystem 19 years !
-
-High quality components, not _necessarily_ targeted for standardization, e.g.
-
-- boost::spirit
-- boost::python
-- boost::computer
-
-etc
+- started in 1998 between Beman Dawes and Robert Klarer
+  - joined by Dave Abrahams
+- first official release '99
+- Field experience!
+  - boost filesystem 19 years to standardize
+- High quality components, not _necessarily_ targeted for standardization, e.g.
+  - boost::spirit
+  - boost::python
+  - boost::compute
+  - boost::WinApi
 
 ---
 
@@ -126,6 +206,13 @@ Notes:
 <div class="lib"><img src="images/victor.png" class="blur-edges"><div class="name">format</div></div>
 <div class="lib"><img src="images/howard.png" class="blur-edges"><div class="name">date</div></div>
 <div class="lib"><img src="images/ms.png" class="blur-edges"><div class="name">span</div></div>
+<div class="lib lots">
+<img src="images/Sandia_National_Laboratories_logo.svg.png" class="blur-edges">
+<img src="images/kokkos-logo.png" class="blur-edges">
+<img src="images/nvidia.png" class="blur-edges">
+<img src="images/amd-header-logo.svg" class="blur-edges">
+<img src="images/Intel_logo_2023.svg.png" class="blur-edges">
+<div class="name">mdspan</div></div>
 </div>
 
 ---
@@ -146,6 +233,10 @@ Notes:
 <div class="lib"><img src="images/catch2.png" class="blur-edges"><div class="name">Catch2</div></div>
 <div class="lib"><img src="images/tencent.png" class="blur-edges"><div class="name">RapidJSON</div></div>
 <div class="lib"><img src="images/hana.jpeg" class="blur-edges"><div class="name">ctre</div></div>
+<div class="lib"><img src="images/seastar.png" class="blur-edges"><div class="name">Seastar</div></div>
+<div class="lib"><img src="images/bfg.png" class="blur-edges"><div class="name">Lyra</div></div>
+<div class="lib"><img src="images/cpptrace.jpeg" class="blur-edges"><div class="name">Cpptrace</div></div>
+<div class="lib"><img src="images/kokkos-logo.png" class="blur-edges"><div class="name">Kokkos</div></div>
 </div>
 
 ---

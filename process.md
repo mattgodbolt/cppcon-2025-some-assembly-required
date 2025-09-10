@@ -2,6 +2,9 @@
 
 <!-- .element: class="r-fit-text" -->
 
+Notes:
+ASK THE AUDIENCE
+
 ---
 
 <img class="r-stretch" src="images/IKEA-ish.png">
@@ -9,6 +12,8 @@
 Notes:
 
 How _do_ we put together software? There's a number of ways
+
+ASK THE AUDIENCE
 
 - Compiling code
 - Creating, editing and understanding the code
@@ -128,6 +133,7 @@ ABI ... helps?
 <div class="lib"><img src="images/DragonFull.png"><div class="name">clang-tidy</div></div>
 <div class="lib"><img src="images/DragonFull.png"><div class="name">libclang</div></div>
 <div class="lib"><img src="images/cpplint.png"><div class="name">cpplint</div></div>
+<div class="lib"><img src="images/cppcheck.png"><div class="name">cppcheck</div></div>
 <div class="lib"><img src="images/pvs_logo_4.svg"></div>
 <div class="lib"><img src="images/Sonar.svg"></div>
 <div class="lib"><img src="images/bronto.webp"><div class="name">BrontoSource</div>

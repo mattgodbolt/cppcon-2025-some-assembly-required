@@ -109,11 +109,11 @@ div.wgs {
 }
 
 div.wgs > div {
-  padding: 0.3em;
+  padding: 0.2em;
   border: 1px solid black;
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-  margin: 0.3em 1em;
+  margin: 0.2em 0.6em;
 }
 
 div.wgs div.disbanded {
@@ -135,7 +135,7 @@ div.wg {
 }
 
 .oohme.visible {
-  transform: scale(1.3);
+  transform: scale(2.4);
   color: #822;
   font-weight: bold;
   box-shadow: 0 0 40px rgba(161, 253, 152, 1);
@@ -173,6 +173,7 @@ div.isoiec {
 div.sc22 {
   background: linear-gradient(to bottom, #e0d5a5, #504b37);
 }
+
 div.wg21 {
   background: linear-gradient(to bottom, #a5e0aa, #84c48c);
   padding-bottom: 0;
@@ -342,8 +343,7 @@ div.vs {
   filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.6));
 }
 
-.lots .lib img {
-  width: auto;
+.lots img {
   height: 120px;
   max-width: 220px;
 }
