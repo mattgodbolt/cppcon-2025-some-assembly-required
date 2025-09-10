@@ -56,6 +56,16 @@ Third actual run through Sep 8th
 - Conclusion woolly still
 - Perhaps need a call back to assembly language too at the end
 
+Fourth runthrough with Jason, notes broken out bigger section below
+
+## Remaining todos
+- Re-read all ideas and make notes
+- More thinking about IDEs etc, audience participation
+- THINK more about vs other languages
+- Builds; more ask the audience
+
+---
+
 READ THROUGH BELOW IDEAS AND flesh out anything with them
 
 Notes from Jason:
@@ -98,13 +108,13 @@ Builds
 - cppcheck missing from tools
 - cpplint maybe kill?
 
-comm,itte
+committee
 - WGxx do not fit on screen
 
-weak on JS
+weak on JS other languages
 
 --- congregation
-- c++ count
+- c++ count done
 Denver COLORADO jason to send picture
 
 ---

@@ -67,10 +67,7 @@ Programming languages, their environments<br> and system software interfaces
 
 Notes:
 
-- JTC1
-  - SC22
-    - WG21
-      - SG1...SG23
+To scale, WG21 would dwarf the rest
 
 ---
 
@@ -92,23 +89,49 @@ Notes:
         </div>
       </div>
     </div>
-  </div> 
+  </div>
 </div>
 
-Notes:
+---
 
-To scale, SG23 would dwarf the rest
+<div class="wgs">
+<div class="active"><div class="wa">Concurrency</div><div class="wg">SG 1</div></div>
+<div class="disbanded"><div class="wa">Modules</div><div class="wg">SG 2</div></div>
+<div class="disbanded"><div class="wa">Filesystem</div><div class="wg">SG 3</div></div>
+<div class="active"><div class="wa">Networking</div><div class="wg">SG 4</div></div>
+<div class="disbanded"><div class="wa">Transactional Memory</div><div class="wg">SG 5</div></div>
+<div class="active"><div class="wa">Numerics</div><div class="wg">SG 6</div></div>
+<div class="active"><div class="wa">Reflection</div><div class="wg">SG 7</div></div>
+<div class="disbanded"><div class="wa">Concepts</div><div class="wg">SG 8</div></div>
+<div class="active"><div class="wa">Ranges</div><div class="wg">SG 9</div></div>
+<div class="active"><div class="wa">Feature Test</div><div class="wg">SG 10</div></div>
+<div class="disbanded"><div class="wa">Databases</div><div class="wg">SG 11</div></div>
+<div class="disbanded"><div class="wa">Undefined Behaviour</div><div class="wg">SG 12</div></div>
+<div class="disbanded"><div class="wa">HMI, I/O</div><div class="wg">SG 13</div></div>
+<div class="active"><div class="wa">Games/Embed/LL</div><div class="wg">SG 14</div></div>
+<div class="active"><div class="wa">Tooling</div><div class="wg">SG 15</div></div>
+<div class="active"><div class="wa">Text</div><div class="wg">SG 16</div></div>
+<div class="active"><div class="wa">EWG Incubator</div><div class="wg">SG 17</div></div>
+<div class="active"><div class="wa">LEWG Incubator</div><div class="wg">SG 18</div></div>
+<div class="active"><div class="wa">Machine Learning</div><div class="wg">SG 19</div></div>
+<div class="active"><div class="wa">Education</div><div class="wg">SG 20</div></div>
+<div class="active"><div class="wa">Contracts</div><div class="wg">SG 21</div></div>
+<div class="active"><div class="wa">C/C++ Liaison</div><div class="wg">SG 22</div></div>
+<div class="active"><div class="wa">Safety & Security</div><div class="wg">SG 23</div></div>
+</div>
 
 ---
 
 <div class="mermaid">
 <pre>
-%%{init: {'theme': 'forest'} }%%
 flowchart LR
-  Idea@{ shape: circle, label: "💡 Idea"} --> Paper(📝 Paper) --> SG;
+  Idea(💡
+  Idea) --> Paper(📝
+  Paper) --> SG;
   SG -- Lib? --> LEWG --> LWG --> Plenary;
   SG -- Lang? --> EWG --> CWG --> Plenary;
-  Plenary --> Up(🎉 New C++ Version!)
+  Plenary --> Up(🎉
+  C++32!)
   style LEWG fill:#6b8ca7;
   style EWG fill:#6b8ca7;
   style LWG fill:#f1a490;

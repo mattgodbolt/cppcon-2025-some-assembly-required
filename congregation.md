@@ -40,6 +40,8 @@ Notes:
 
 There's so many C++ conferences: and numbers still growing, and we've recovered from the pandemic. That's not the only way though.
 
+C++ Online,using std::cpp, ACCU, C++ on Sea, C++Now, CppNorth, CppCon, NDC Tech, C++ Day, Core C++, Meeting C++
+
 ---
 
 <div class="meets">

@@ -106,6 +106,7 @@ div.wgs {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  font-size: 90%;
 }
 
 div.wgs > div {
@@ -132,6 +133,10 @@ div.wa {
 div.wg {
   font-size: 80%;
   font-style: italic;
+}
+
+.oohme {
+  z-index: 1;
 }
 
 .oohme.visible {
@@ -288,27 +293,51 @@ table.registers td {
 }
 
 .sse {
-  background: linear-gradient(to bottom, rgb(245, 149, 213), rgb(184, 128, 199));
+  background: linear-gradient(
+    to bottom,
+    rgb(245, 149, 213),
+    rgb(184, 128, 199)
+  );
 }
 
 .rax {
-  background: linear-gradient(to bottom, rgb(184, 255, 243), rgb(128, 199, 187));
+  background: linear-gradient(
+    to bottom,
+    rgb(184, 255, 243),
+    rgb(128, 199, 187)
+  );
 }
 
 .eax {
-  background: linear-gradient(to bottom, rgb(255, 255, 179), rgb(255, 255, 255));
+  background: linear-gradient(
+    to bottom,
+    rgb(255, 255, 179),
+    rgb(255, 255, 255)
+  );
 }
 
 .ax {
-  background: linear-gradient(to bottom, rgb(190, 186, 218), rgb(255, 255, 255));
+  background: linear-gradient(
+    to bottom,
+    rgb(190, 186, 218),
+    rgb(255, 255, 255)
+  );
 }
 
 .ah {
-  background: linear-gradient(to bottom, rgb(251, 128, 114), rgb(255, 255, 255));
+  background: linear-gradient(
+    to bottom,
+    rgb(251, 128, 114),
+    rgb(255, 255, 255)
+  );
 }
 
 .al {
-  background: linear-gradient(to bottom, rgb(128, 177, 211), rgb(255, 255, 255));
+  background: linear-gradient(
+    to bottom,
+    rgb(128, 177, 211),
+    rgb(255, 255, 255)
+  );
 }
 
 .registers td.regnote {
@@ -316,7 +345,8 @@ table.registers td {
   font-style: italic;
 }
 
-.libs, .meets {
+.libs,
+.meets {
   display: flex;
   justify-content: center;
   align-items: center;
