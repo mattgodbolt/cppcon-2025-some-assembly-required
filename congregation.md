@@ -45,6 +45,7 @@ There's so many C++ conferences: and numbers still growing, and we've recovered 
 <div class="meets">
 <div class="meet"><img src="images/meetup.png"></div>
 <div class="meet"><img src="images/meet_berlin.avif"></div>
+<div class="meet"><img src="images/meet_colorado.avif"></div>
 <div class="meet"><img src="images/meet_madrid.avif"></div>
 <div class="meet"><img src="images/meet_chicago.avif"></div>
 <div class="meet"><img src="images/meet_auckland.avif"></div>

@@ -49,7 +49,19 @@ By [Peter J. Yost](https://commons.wikimedia.org/w/index.php?curid=98351026) - O
 
 <img src="images/riscv-color.svg" class="vendor" style="margin-left: 2em">
  
+ ```cpp
+ int square(int value) {
+  return value * value;
+ }
+ ```
+
+<!-- .element: class="fragment" -->
+
 <!-- .slide: data-auto-animate -->
+
+Notes:
+
+- venerable old example
 
 ---
 
@@ -57,23 +69,26 @@ By [Peter J. Yost](https://commons.wikimedia.org/w/index.php?curid=98351026) - O
 
 <img src="images/Intel_logo_2023.svg.png" class="vendor">
 
-```asmmy
-0fafff    imul edi, edi
-89f8      mov eax, edi
+```asmmy [|2|3|]
+          square:           ; arg in edi, result in eax
+0fafff    imul edi, edi     ; value *= value
+89f8      mov eax, edi      ; ret_val = value
 c3        ret
 ```
 
 <img src="images/arm_logo.png" class="vendor">
 
-```asmmy
-1b007c00  mul w0, w0, w0
+```asmmy [|2|]
+          square:           ; arg in w0, result in w0
+1b007c00  mul w0, w0, w0    ; ret_val = value * value
 d65f03c0  ret
 ```
 
 <img src="images/riscv-color.svg" class="vendor">
 
-```asmmy
-02a5053b  mul a0, a0, a0
+```asmmy [|2|]
+          square:           ; arg in a0, result in a0
+02a5053b  mul a0, a0, a0    ; ret_val = value * value
 8082      ret
 ```
 
@@ -82,6 +97,11 @@ d65f03c0  ret
 <!-- .slide: data-auto-animate -->
 
 Notes:
+
+- OVERVIEW SLIDE
+- MACHINE CODE vs Assembly Language
+- Talk generally about registers being globals
+- Talk generally about ABI
 
 ---
 
@@ -182,6 +202,45 @@ Notes:
 
 ---
 
+<img src="images/Intel_logo_2023.svg.png" class="vendor">
+
+<table class="abi">
+<thead>
+<tr><td colspan=2></td><th colspan="6">Argument</th>
+<tr><th>ABI</th><th>Result</th><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr>
+</thead>
+<tbody>
+<tr>
+<th>System V<br>(Linux)</th>
+<td class="register rax">rax</td>
+<td class="register rax">rdi</td>
+<td class="register rax">rsi</td>
+<td class="register rax">rdx</td>
+<td class="register rax">rcx</td>
+<td class="register rax">r8</td>
+<td class="register rax">r9</td>
+</tr>
+<tr>
+<th>MS x64</th>
+<td class="register rax">rax</td>
+<td class="register rax">rcx</td>
+<td class="register rax">rdx</td>
+<td class="register rax">r8</td>
+<td class="register rax">r9</td>
+<td class="register" colspan=2>(stack)</td>
+</tr>
+</tbody>
+</table>
+
+<!-- .slide: data-auto-animate -->
+
+Notes:
+- all integer, floating point, large returns,
+- this pointer
+- return-value optimization etc
+
+---
+
 <img src="images/arm_logo.png" class="vendor">
 
 <table class="registers">
@@ -201,6 +260,34 @@ Notes:
     </tr>
     </tbody>
 </table>
+
+<!-- .slide: data-auto-animate -->
+
+---
+
+<img src="images/arm_logo.png" class="vendor">
+
+<table class="abi">
+<thead>
+<tr><td></td><th colspan="8">Argument</th>
+<tr><th>Result</th><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td></tr>
+</thead>
+<tbody>
+<tr>
+<td class="register rax">x0</td>
+<td class="register rax">x0</td>
+<td class="register rax">x1</td>
+<td class="register rax">x2</td>
+<td class="register rax">x3</td>
+<td class="register rax">x4</td>
+<td class="register rax">x5</td>
+<td class="register rax">x6</td>
+<td class="register rax">x7</td>
+</tr>
+</tbody>
+</table>
+
+<!-- .slide: data-auto-animate -->
 
 ---
 

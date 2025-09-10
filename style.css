@@ -153,6 +153,11 @@ div.org {
   padding-bottom: 1.5em;
 }
 
+tr.highlight-line {
+  text-shadow: 0px 0px 10px #ccc !important;
+  filter: brightness(1.15);
+}
+
 div.iso {
   background: linear-gradient(to bottom, #db9c9c, #5e4444);
 }
@@ -282,27 +287,27 @@ table.registers td {
 }
 
 .sse {
-  background: rgb(245, 149, 213);
+  background: linear-gradient(to bottom, rgb(245, 149, 213), rgb(184, 128, 199));
 }
 
 .rax {
-  background: rgb(141, 211, 199);
+  background: linear-gradient(to bottom, rgb(184, 255, 243), rgb(128, 199, 187));
 }
 
 .eax {
-  background: rgb(255, 255, 179);
+  background: linear-gradient(to bottom, rgb(255, 255, 179), rgb(255, 255, 255));
 }
 
 .ax {
-  background: rgb(190, 186, 218);
+  background: linear-gradient(to bottom, rgb(190, 186, 218), rgb(255, 255, 255));
 }
 
 .ah {
-  background: rgb(251, 128, 114);
+  background: linear-gradient(to bottom, rgb(251, 128, 114), rgb(255, 255, 255));
 }
 
 .al {
-  background: rgb(128, 177, 211);
+  background: linear-gradient(to bottom, rgb(128, 177, 211), rgb(255, 255, 255));
 }
 
 .registers td.regnote {
@@ -369,4 +374,29 @@ img.vendor {
   height: 100px;
   max-width: 300px;
   margin: auto;
+}
+
+table.abi {
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+table.abi th {
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid black;
+  vertical-align: middle;
+}
+
+table.abi td {
+  text-align: center;
+  border: 1px solid black;
+  vertical-align: middle;
+}
+
+.top-right {
+  position: absolute;
+  top: 0.5em;
+  right: -0.1em;
 }

@@ -89,6 +89,11 @@ Notes:
   ADD		uvArrayPasted, uvPasted	; uvPasted points at the pasted UVs
 ```
 
+<div class="top-right">
+<img src="images/Dreamcast.png" width="200px" class="drop-shadow">
+<img src="images/casio.avif" height="200px" class="drop-shadow">
+</div>
+
 Source on GitHub: [mattgodbolt/reddog](https://github.com/mattgodbolt/reddog)
 
 <!-- .element: class="attribution" -->

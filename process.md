@@ -145,15 +145,20 @@ Notes:
 
 Notes:
 
-- documentation!
-- the how and why, the Tao
-- coding conventions
-- linters
-- formatters
-- Wall Wextra Wsign-conversion
-- Compiler Explorer!? :D
+Have you ever thought about the most tricky part of all in assembling C++ programs? The people! Much has been said about this by great people like Kate Gregory and other but, by making the process of assembling pieces as easy as possible you make things great for everyone.
 
-documentation, doc generators etc
+Consider an OSS project:
+- well documentewd
+- clear rules
+- automatic enforcement on checkins
+- designs for local changes having local impact
+- well manicured bug list
+
+Great for onboarding new folks! And that makes OSS good.
+
+But also works in closed source projects! Encourages other teams to make bugfixes in your code; makes it easier to switch team.
+
+And... AI. Your favourite (or least favourite) new team-mate gets on much better if the process of assembling is clear, and simple.
 
 ---
 

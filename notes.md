@@ -58,6 +58,55 @@ Third actual run through Sep 8th
 
 READ THROUGH BELOW IDEAS AND flesh out anything with them
 
+Notes from Jason:
+
+**AUDIENCE PARTICIPATION**
+
+- explain more on the intel/arm/ "square" function
+  - go ...
+  - `constexpr` lol
+  - calling convention
+  - no unroll loops -fno-unroll-loops
+  - clang? other exploring
+
+"I think it'd be amusing if your sh4 slide had another side after it that just showed a Saturn and a Casio calculator and you said "this processor was used in these awesome devices" and just left it at that with no other comment"
+https://www.casio.com/us/scientific-calculators/product.FX-9750-F91W/
+
+STL
+- lisp version of STL common algorithm
+  - find og stepanov
+- david stone gave a talk: "functions want to be free"
+  - functions should be stl design
+- boost pre standard?
+
+other libs:
+- mdspan !! standardization 
+
+process of putting together
+ask crowd?
+
+- compilers (EDG?)
+  - 
+IDEs?
+- moo
+
+Builds
+- build systems maybe explain why?
+- SCons
+- Question!!! who uses:
+  - POLL THE AUDIENCE
+- cppcheck missing from tools
+- cpplint maybe kill?
+
+comm,itte
+- WGxx do not fit on screen
+
+weak on JS
+
+--- congregation
+- c++ count
+Denver COLORADO jason to send picture
+
 ---
 
 Dump of new ideas in no particular order
