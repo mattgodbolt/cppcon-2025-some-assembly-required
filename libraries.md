@@ -231,6 +231,7 @@ Notes:
 <div class="lib"><img src="images/google.png" class="blur-edges"><div class="name">googletest</div></div>
 <div class="lib"><img src="images/tristan.jpeg" class="blur-edges"><div class="name">flux</div></div>
 <div class="lib"><img src="images/catch2.png" class="blur-edges"><div class="name">Catch2</div></div>
+<div class="lib"><img src="images/catch23.svg" class="blur-edges"><div class="name">Catch23</div></div>
 <div class="lib"><img src="images/tencent.png" class="blur-edges"><div class="name">RapidJSON</div></div>
 <div class="lib"><img src="images/hana.jpeg" class="blur-edges"><div class="name">ctre</div></div>
 <div class="lib"><img src="images/seastar.png" class="blur-edges"><div class="name">Seastar</div></div>

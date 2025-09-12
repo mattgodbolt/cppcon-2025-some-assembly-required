@@ -58,11 +58,22 @@ Third actual run through Sep 8th
 
 Fourth runthrough with Jason, notes broken out bigger section below
 
+Fifth runthrough:
+- Total 65m (good I guess?)
+- 22m to get to "Compiler Explorer"
+- 40m to get to "process"
+- 52m to get to ISO/IEC SC 22
+  - "What is SC" ADD NOTES
+  - "What is SG" ADD NOTES
+- Fake out ending (weak!) at 27m
+
 ## Remaining todos
 - Re-read all ideas and make notes
 - More thinking about IDEs etc, audience participation
 - THINK more about vs other languages
 - Builds; more ask the audience
+- Replace weak "thanks" slide with something else
+- REVISE THE SPEAKER NOTES CAREFULLY
 
 ---
 

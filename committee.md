@@ -36,6 +36,10 @@ ISO/IEC JTC 1 (Joint Technical Committee 1) "Information technology"
 
 Programming languages, their environments<br> and system software interfaces
 
+Notes:
+
+SC == Subcommittee
+
 ---
 
 <div class="wgs">
@@ -92,6 +96,10 @@ To scale, WG21 would dwarf the rest
   </div>
 </div>
 
+Notes:
+
+SG = Study Group
+
 ---
 
 <div class="wgs">
@@ -119,6 +127,10 @@ To scale, WG21 would dwarf the rest
 <div class="active"><div class="wa">C/C++ Liaison</div><div class="wg">SG 22</div></div>
 <div class="active"><div class="wa">Safety & Security</div><div class="wg">SG 23</div></div>
 </div>
+
+Notes:
+
+SG = Study Group
 
 ---
 

@@ -389,11 +389,14 @@ Notes:
 
 ---
 
-## Thanks!
+<img src="images/car_map.jpg" class="r-stretch blur-edges">
+---
 
-Oh wait, is that the time?
+<img src="images/car_oops.jpg" class="r-stretch blur-edges">
 
-<!-- .element class="fragment" -->
+---
+
+Well, this is awkward...
 
 ---
 
