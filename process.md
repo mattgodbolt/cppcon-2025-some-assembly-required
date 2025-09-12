@@ -104,9 +104,12 @@ Notes:
 <div class="lib"><img src="images/ninja-build.svg"><div class="name">ninja</div></div>
 <div class="lib"><img src="images/bazel-icon.svg"><div class="name">bazel</div></div>
 <div class="lib"><img src="images/buck-logo.svg"><div class="name">buck</div></div>
+</div>
+<div class="libs lots">
 <div class="lib"><img src="images/SCons-Bricks.png"><div class="name">SCons</div></div>
 <div class="lib"><img src="images/meson_logo.png"><div class="name">meson</div></div>
 <div class="lib"><img src="images/evoke_logo.png" class="blur-edges"><div class="name">evoke</div></div>
+<div class="lib"><img src="images/pixi.png" class="blur-edges"><div class="name">Pixi</div></div>
 </div>
 
 ---
@@ -154,6 +157,7 @@ Notes:
 Have you ever thought about the most tricky part of all in assembling C++ programs? The people! Much has been said about this by great people like Kate Gregory and other but, by making the process of assembling pieces as easy as possible you make things great for everyone.
 
 Consider an OSS project:
+
 - well documentewd
 - clear rules
 - automatic enforcement on checkins
