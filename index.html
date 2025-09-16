@@ -118,6 +118,16 @@
         };
       }
 
+      function tecton() {
+        return {
+          keywords: {
+            keyword: "provide sequences of with null if else then",
+          },
+          contains: [
+          ],
+        };
+      }
+
       Reveal.initialize({
         history: true,
         transition: "fade",
@@ -133,6 +143,7 @@
           beforeHighlight: (hljs) => {
             hljs.registerLanguage("asmsh", asmSH4);
             hljs.registerLanguage("asmmy", asmMy);
+            hljs.registerLanguage("tecton", tecton);
           }
         },
         ce: {

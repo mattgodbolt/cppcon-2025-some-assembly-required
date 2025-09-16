@@ -30,16 +30,31 @@ Notes:
 
 ## <span data-id="ST">ST</span><span data-id="epanov" style="font-size: 0px">epanov and </span><span data-id="L">L</span><span data-id="ee" style="font-size: 0px">ee<span>
 
-```scheme []
-(define (count predicate list)
-  (let ((result 0))
-    (for-each 
-      (lambda (x) 
-        (if (predicate x)
-            (set! result (+ result 1))))
-      list)
-    result))
+```tecton []
+provide sequences of monoid with
+  reduction: x → if x = null then 0
+             else head(x) + reduction(tail(x));
 ```
+
+<!-- .slide: data-auto-animate -->
+
+Notes:
+
+- Tecton (1981) at GE
+
+---
+
+## <span data-id="ST">ST</span><span data-id="epanov" style="font-size: 0px">epanov and </span><span data-id="L">L</span><span data-id="ee" style="font-size: 0px">ee<span>
+
+```scheme []
+(define ((make-accumulate iterator)
+         function initial-value structure)
+  (iterator
+    (lambda (x)
+      (set! initial-value (function initial-value x)))
+    structure)
+  initial-value)
+  ```
 
 <!-- .slide: data-auto-animate -->
 
@@ -54,18 +69,9 @@ Notes:
 
 ```ada []
 generic
-  with function Test(E : Element) return Boolean;
-function Count_If(S : Sequence) return Integer;
--- Returns a non-negative integer, the number
--- of elements E of S such that Test(E) is true.
-
-function Count_If(S : Sequence) return Integer is
-  function Test_Aux is new Make_Test_If(Test);
-  function Count_Aux 
-    is new Algorithms.Count(Test_Aux);
-begin
-  return Count_Aux(S);
-end Count_If;
+  with function Operation(X, Y : Element) return Element;
+function Reduce(S : Sequence; Initial : Element) return Element;
+-- ...implementation elided...
 ```
 
 <!-- .slide: data-auto-animate -->
@@ -79,15 +85,12 @@ Notes:
 ## <span data-id="ST">ST</span><span data-id="epanov" style="font-size: 0px">epanov and </span><span data-id="L">L</span><span data-id="ee" style="font-size: 0px">ee<span>
 
 ```cpp []
-template<class InputIterator, class Predicate>
-typename iterator_traits<InputIterator>::difference_type
-count_if(InputIterator first, InputIterator last, 
-         Predicate pred) {
-  typename iterator_traits<InputIterator>::difference_type n = 0;
+template<class InputIterator, class T, class BinaryOperation>
+T accumulate(InputIterator first, InputIterator last,
+             T init, BinaryOperation op) {
   for (; first != last; ++first)
-    if (pred(*first))
-      ++n;
-  return n;
+    init = op(init, *first);
+  return init;
 }
 ```
 
