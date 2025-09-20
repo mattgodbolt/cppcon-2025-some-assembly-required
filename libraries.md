@@ -205,7 +205,7 @@ Notes:
 ---
 
 <div class="libs">
-<div class="lib"><img src="images/barry.png" class="blur-edges"><div class="name">ranges</div></div>
+<div class="lib"><img src="images/eric.png" class="blur-edges"><div class="name">ranges</div></div>
 <div class="lib"><img src="images/victor.png" class="blur-edges"><div class="name">format</div></div>
 <div class="lib"><img src="images/howard.png" class="blur-edges"><div class="name">date</div></div>
 <div class="lib"><img src="images/ms.png" class="blur-edges"><div class="name">span</div></div>
